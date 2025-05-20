@@ -2,7 +2,7 @@
 **Filename:** `AIPOS-Session-Outcome-Template.md`  
 **Project:** AIPOS-PUBLIC-ENG  
 **Version:** v1.0 (ENG) 2025-05-20
-**Run:** AIPOS-PUBLIC-EMG-FINAL  
+**Run:** AIPOS-PUBLIC-ENG-FINAL  
 **Timestamp:** 2025-05-20 11:22
 
 ---
