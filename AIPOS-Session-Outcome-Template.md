@@ -40,7 +40,8 @@ Users can paste this into the end of the chat or export manually from a session 
 | aiposrun [X]               | ...                                          |
 | aipossave [Y]              | ...                                          |
 | aipossummary [Z]           | Output log trigger activated                 |
-| “Let’s wrap it up.”        | Output log trigger activated                 |
+| “let’s wrap it up.”        | Output log trigger activated                 |
+| “sum it up.”               | Output log trigger activated                 |
 
 ---
 
