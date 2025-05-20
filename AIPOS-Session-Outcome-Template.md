@@ -35,12 +35,12 @@ Users can paste this into the end of the chat or export manually from a session 
 
 ## 🧩 Commands Executed
 
-| Command                      | Notes or Outcome Summary                     |
-|-----------------------------|----------------------------------------------|
-| AIPOS RUN: [X]              | ...                                           |
-| AIPOS SAVE: [Y]             | ...                                           |
-| aiposbrief: [Z]             | ...                                           |
-| “Let’s wrap it up.”         | Output log trigger activated                 |
+| Command                    | Notes or Outcome Summary                     |
+|----------------------------|----------------------------------------------|
+| aiposrun [X]               | ...                                          |
+| aipossave [Y]              | ...                                          |
+| aipossummary [Z]           | Output log trigger activated                 |
+| “Let’s wrap it up.”        | Output log trigger activated                 |
 
 ---
 
