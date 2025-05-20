@@ -16,7 +16,8 @@
 - Domains: [e.g., Civic Tech, Automation, Public Safety]  
 - Strengths: [e.g., Refactoring, clarity, async thinking]  
 - Language Preference: [EN / UA / Both]  
-- Thinking Style: [e.g., Pattern-based, pragmatic, systems-oriented]  
+- Thinking Style: [e.g., Pattern-based, pragmatic, systems-oriented] 
+# NOTE: AI must not infer or modify this. Use only what’s stated here.
 # === CONTEXT BLOCK END ===
 
 # === AI BEHAVIOR & ROLE SETUP ===
