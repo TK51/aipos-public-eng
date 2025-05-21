@@ -27,28 +27,25 @@ AI Feedback Mode: truecut
 [ref: AIPOS-Command-and-Settings-Reference.md]
 
 # === OUTPUT FORMAT CONTROL ===
-Output Format: markdown / rawtext / raw.md / python  
-Structure Style: headers / paragraph / plain  
-Output Length: full  
-Response Format: 
-- markdown → structured output (no preview)
-- rawtext → clean copy-paste text (LinkedIn/email safe)
-- raw.md → pure markdown for storage, README use, GitHub compatibility
-- python → only code blocks, no description, no fluff
-[ref: AIPOS-Command-and-Settings-Reference.md]
+Output Format:     rawtext     # Options: markdown / rawtext / raw.md / python  
+Structure Style:   plain       # Options: headers / paragraph / plain  
+Output Length:     full
+
+# Format Notes:
+# - rawtext → clean, copy-paste-safe (LinkedIn/email-ready)
+# - markdown → structured output (no preview inside ChatGPT)
+# - raw.md → unstyled markdown blocks (README/GitHub use)
+# - python → only code blocks, no fluff, no prose
 
 # === COMMAND SYNTAX ===
-Trigger Style: voice-style / text-input
+Trigger Style:     voice-style / text-input
 [ref: AIPOS-Command-and-Settings-Reference.md]
 
-# === SESSION RULES ===  
-Auto Timestamp:   true (local)  
-Output Header:    enabled  
-Output Footer:    enabled  
-Close Behavior:   disabled  
-# If enabled, AI will end responses with soft closers (e.g., summary, farewell, next step hints)  
-# If disabled, replies end cleanly with no fluff or outro.
-Markdown Only:    true 
+# === SESSION BEHAVIOR RULES ===
+Auto Timestamp:    true (local)  
+Output Header:     enabled  
+Output Footer:     enabled  
+Close Behavior:    disabled      # disables auto-closing phrases or summaries
 
 # === CHAT OUTPUT HEADER ===
 # Shown at the top of each AI reply inside ChatGPT
