@@ -36,41 +36,45 @@ QR image:
 ---
 
 ### 2. Tap to Open File  
-- Tap the link shown on screen  
-- On GitHub, tap **Raw** to open plain text view  
-- Copy **the entire config** — including top and bottom blocks
+- Tap the link in your browser  
+- On GitHub, tap **Download**  
+- Open the `.txt` file on your phone  
+- Edit it if needed, then save
 
 ---
 
-### 3. Open ChatGPT (Mobile App or Browser)  
-- Paste the config into the message field  
-- Press **Send** before typing anything else  
+### 3. Paste into ChatGPT  
+- Open ChatGPT (mobile app or browser)  
+- Either:  
+  - Paste the full text content of the config as your first message  
+  - **Or**, upload the `.txt` file directly if your app supports it  
+- Make sure this is the **first message** in the session — before any prompts or questions 
 
-ChatGPT will respond with confirmation:  
+You’ll see a confirmation like:  
 > Config loaded. Role: multi-role.  
 > Tone: polite • constructive • critical • practical.  
-> Timestamp: 2025-05-20 11:22
+> Timestamp: [your local time]
 
 ---
 
 ### 4. Begin Structured Session  
 You’re now running AIPOS from your phone.  
-The assistant will follow your config: tone, structure, role, format.
+The assistant will follow your declared structure, tone, and behavior logic.
 
 ---
 
 ## ✅ Works Great For
 
-- Mobile-first workflows  
-- Resume feedback, tone checks, or short tasks  
-- Free ChatGPT users  
-- Teams deploying behavior-standardized sessions via QR
+- Mobile-only users  
+- Quick feedback or micro-sessions  
+- Free-tier ChatGPT  
+- On-the-go config booting
 
 ---
 
 ## 🧾 Quick Reminders
 
-- Always paste the full config block first — no trimming  
-- Re-paste if your session resets or forgets structure  
-- Works on any mobile browser or ChatGPT app version  
-- No plugin, no extension, no login — just clarity by design
+- Always paste the **full config** before sending other prompts  
+- If your session resets or loses tone, just re-paste  
+- You can customize the config before each run  
+- No plugin, no extension — just structured text
