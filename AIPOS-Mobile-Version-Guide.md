@@ -31,7 +31,7 @@ https://github.com/TK51/aipos-public-eng/blob/main/AIPOS-Session-Config.txt
 ```
 
 QR image:  
-![QR Code for GitHub Config](https://github.com/TK51/aipos-public-eng/blob/main/QR-Code-github.com.png)
+![QR Code for GitHub Config](https://github.com/TK51/aipos-public-eng/blob/main/AIPOS-QR-Code-github.com.png)
 
 ---
 
