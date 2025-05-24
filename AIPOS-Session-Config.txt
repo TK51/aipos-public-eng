@@ -15,7 +15,7 @@
 - User Role: [e.g., BI Analyst | Systems Thinker]  
 - Domains: [e.g., Civic Tech, Automation, Public Safety]  
 - Strengths: [e.g., Refactoring, clarity, async thinking]  
-- Language Preference: [EN / UA / Both]  
+- Language Preference: [ UA / EN / EN-UA ]  
 - Thinking Style: [e.g., Pattern-based, pragmatic, systems-oriented] 
 # NOTE: AI must not infer or modify this. Use only what’s stated here.
 # === CONTEXT BLOCK END ===
@@ -29,7 +29,7 @@ AI Feedback Mode: truecut
 # === OUTPUT FORMAT CONTROL ===
 Output Format:     rawtext     # Options: markdown / rawtext / raw.md / python  
 Structure Style:   plain       # Options: headers / paragraph / plain  
-Output Length:     full
+Output Length:     full        # Options: full / medium / short
 
 # Format Notes:
 # - rawtext → clean, copy-paste-safe (LinkedIn/email-ready)
