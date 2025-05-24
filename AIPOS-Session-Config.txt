@@ -42,7 +42,7 @@ Trigger Style:     voice-style / text-input
 [ref: AIPOS-Command-and-Settings-Reference.md]
 
 # === SESSION BEHAVIOR RULES ===
-Auto Timestamp:    true (local)  
+Auto Timestamp:    true (**[DATE:]** YYYY-MM-DD HH:MM (user's local time))    
 Output Header:     enabled  
 Output Footer:     enabled  
 Close Behavior:    disabled      # disables auto-closing phrases or summaries
