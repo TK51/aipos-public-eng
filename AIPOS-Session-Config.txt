@@ -8,7 +8,7 @@
 # === CONTEXT BLOCK SETUP ===  
 # Edit the fields below to reflect your current role and mindset.  
 # Leave the structure intact — just replace the [example] values.  
-# This block shapes AI behavior during your session.
+# This block shapes AI behavior during your session, based on your role and other parameters.
 # OPTIONAL CONTEXT BLOCK is at the bottom of this document. Add more there.
 
 # === CONTEXT BLOCK START ===  
