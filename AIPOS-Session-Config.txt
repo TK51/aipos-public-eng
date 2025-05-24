@@ -91,11 +91,14 @@ For full commands, cases, and templates, visit: https://github.com/TK51/aipos-pu
 # - Emails, meeting transcripts, code snippets  
 # - Anything relevant to your session — context lives here.
 
-# Paste or write freely below:
+# Paste or write any additional context below this line:
+................................................................................
 
+[insert additional context here]
 
-# End of Config — paste your content above this line if using manually.
-.....................................................................................
+................................................................................
+### CONFIG END — do not edit below this line if inserting manually.
+
 # === CONTEXT SIZE LIMIT ===      (As of: 2025-05-20)
 # Paste size depends on which AI model you're using — here's what you need to know:  
 
