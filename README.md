@@ -44,6 +44,8 @@ At session end, you can generate a clean, extractable **session log** to track y
 4. Open ChatGPT (or another AI tool)  
 5. Paste the file itself or its contents into the chat at the beginning of your session  
 6. You’re now running AIPOS with structure and clarity — no plugins, no setup
+7. [Optional] Re-write your config within the session - ask IA to update te config.
+8. [Optional] Next session, start with updated config (see Step 5 above)
 
 ### 📱 OPTION 2: Scan QR to Open Config Location on GitHub
 
