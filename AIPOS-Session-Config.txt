@@ -1,5 +1,5 @@
 # AIPOS-Session-Config.txt  
-# Version: 2025-05-23
+# Version: 2025-05-24
 # Run: AIPOS-PUBLIC-EMG-FINAL
 
 # Set your CONTEXT BLOCK below to define role and mindset  
