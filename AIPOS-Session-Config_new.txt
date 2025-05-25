@@ -33,7 +33,7 @@ Raw Control Preference: enforced — no previewed markdown or visual formatting 
 
 # === [ 3 ] AI BEHAVIOR & ROLE MODE =======================================
 AI Role Mode: [e.g., multi-role: strategist + recruiter whisperer + writer]  
-AI Tone Style: [e.g., critical • practical • constructive]  
+AI Tone Style: [e.g., polite • critical • practical • pragmatic ]  
 AI Feedback Mode: [truecut / softproof]  
 [ref: AIPOS-Command-and-Settings-Reference.md]
 
