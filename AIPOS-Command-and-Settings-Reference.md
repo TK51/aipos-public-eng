@@ -5,6 +5,13 @@
 **Run:** AIPOS-PUBLIC-EMG-FINAL  
 **Timestamp:** 2025-05-20 11:22 
 
+............................
+Things to be added and revomed from this section:
+commands from mobile terminal have to be varied like
+aiposrun = Aiposrun... because the input in mobile phones starts normally from capital letter, so user is forced to change the capitalization... we need to mitigate that and allow mobile commands to start from both small and caps
+
+............................
+
 ---
 
 ## 📌 Purpose
