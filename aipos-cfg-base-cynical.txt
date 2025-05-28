@@ -79,7 +79,7 @@ Optional commands:
 - `aiposrepair` — Fix malformed output from AI drift or memory ghosting
 
 # === [ 7 ] EXECUTION LINE ANCHOR =========================================
-Project Ref: AIPOS v4 — Internal Creator Line  
+Project Ref: AIPOS v1 — Internal Creator Line  
 Welcome Note: "This config is not polite. It’s structural. Expect compliance, not comfort."
 
 # === [ 8 ] OPTIONAL CONTEXT BLOCK ========================================
