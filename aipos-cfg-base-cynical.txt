@@ -96,7 +96,19 @@ Tone: Cynical
 Made: yyyy-mm-dd  
 Goal: <declared or default target>
 
-# === [ 10 ] SYSTEM LIMITS + INPUT RULES ==================================
+# === [ 10 ] OUTPUT BLOCK — MANUAL SESSION SUMMARY =========================
+# You may log session context manually below for traceability.
+# Use `aipossummary` (or 'Aipossummary' on mobile) to trigger summary from runtime.
+
+Session Date: [YYYY-MM-DD]  
+AI Role: [Architect | Analyst | ...]  
+Tone Stack: [Cynical | Critical | Constructive | ...]  
+Footer Status: [Valid | Repaired | Drifted]  
+Commands Used: [aiposrun, aiposvalidate, aipossave, ...]  
+Outcome Summary: [What was produced / decided / exported]  
+Trace Signature: [Optional — e.g., #fromukrainianswithlovetohumankind]
+
+# === [ 11 ] SYSTEM LIMITS + INPUT RULES ==================================
 Max Paste Size: ~90,000 characters (GPT-4o safe)  
 Max Files Per Paste: 10  
 Archive Support: .zip preferred for multi-file session packaging  
