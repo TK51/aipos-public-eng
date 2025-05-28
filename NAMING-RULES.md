@@ -1,17 +1,17 @@
-# 📛 NAMING-RULES.md  
+# NAMING-RULES.md  
 **Version:** 1.0.0-RULES   
 <!-- Last Updated: 2025-05-28 by Kay -->
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This file defines the **non-negotiable naming rules** for AIPOS files.  
 If your files don’t follow this — they don’t belong in the system. Period.
 
 ---
 
-## ✅ Core Naming Rules
+## Core Naming Rules
 
 ### 1. Use Hyphens Only
 
@@ -60,14 +60,14 @@ No prefix. No camelCase. No exceptions.
 Top of every file must declare itself — for grep, trace, and human clarity.
 
 ```markdown
-# 📛 aipos-cfg-base-cynical.txt
+# aipos-cfg-base-cynical.txt
 ```
 
 If filename ≠ header → it fails compliance.
 
 ---
 
-## 📦 Accepted Extensions
+## Accepted Extensions
 
 | Type       | Extension | Use Case                |
 |------------|-----------|-------------------------|
@@ -80,7 +80,7 @@ No `.docx`, `.rtf`, `.pdf`, or Google Drive exports.
 
 ---
 
-## 🔒 Naming Pattern Standard
+## Naming Pattern Standard
 
 ```
 aipos-cfg-[domain]-[purpose].txt
@@ -97,7 +97,7 @@ aipos-cfg-[domain]-[purpose].txt
 
 ---
 
-## 🚫 Violations to Kill On Sight
+## Violations to Kill On Sight
 
 - Snake_case names  
 - Missing filename in header  
@@ -107,7 +107,7 @@ aipos-cfg-[domain]-[purpose].txt
 
 ---
 
-## 🧠 Philosophy
+## Philosophy
 
 Structure ≠ polish.  
 Naming ≠ vanity.  
@@ -115,7 +115,7 @@ This is **execution control** — no compromise allowed.
 
 ---
 
-## ✅ Summary
+## Summary
 
 If it’s runtime logic → `aipos-cfg-...txt`  
 If it’s a doc → `ALLCAPS.md`  
