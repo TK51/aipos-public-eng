@@ -54,7 +54,7 @@ Copy. Edit. Paste. Control.
 Embed this in the bottom-right of the card image.  
 Target URL:
 
-[https://github.com/TK51/aipos-public-eng/blob/main/aipos-cfg-base-cynical-config.txt](https://github.com/TK51/aipos-public-eng/blob/main/aipos-qr-code-cfg-base-cynical.jpg)
+[https://github.com/TK51/aipos-public-eng/blob/main/aipos-cfg-base-cynical.txt](https://github.com/TK51/aipos-public-eng/blob/main/aipos-cfg-base-cynical.txt)
 
 ---
 
