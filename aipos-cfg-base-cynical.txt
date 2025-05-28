@@ -1,4 +1,4 @@
-# 📛 aipos-cfg-base-cynical.txt  
+# aipos-cfg-base-cynical.txt  
 # Version: 1.0  
 <!-- Last Updated: 2025-05-28 by Kay -->k  
 
