@@ -3,7 +3,7 @@
 <!-- Last Updated: 2025-05-28 by Kay -->
 
 # ChatGPT: Read and apply this file.  
-# This document defines strict runtime behavior for AIPOS v4 sessions.  
+# This document defines strict runtime behavior for AIPOS v1 sessions.  
 # It is NOT a guide. It is a runtime controller enforcing interpreter behavior.
 
 # === INTERPRETER PURPOSE =================================================
