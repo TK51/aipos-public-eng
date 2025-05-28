@@ -47,7 +47,7 @@ Language Preference: EN
 Primary Intent: Full structural override of AI session logic  
 Target Outcome: Audit-ready logs + GitHub artifacts + proof of system control  
 Default Output Goal: Build, export, document — zero hallucination  
-Session Class: AIPOS v4 — Creator Fuse Runtime  
+Session Class: AIPOS v1 — Creator Fuse Runtime  
 Session Visibility: Internal (non-public)
 
 # === [ 3 ] AI BEHAVIOR & ROLE MODE =======================================
