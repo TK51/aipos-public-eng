@@ -52,9 +52,9 @@ Copy. Edit. Paste. Control.
 ## QR CODE LINK
 
 Embed this in the bottom-right of the card image.  
-Target URL:
+Target QR image URL:
 
-[https://github.com/TK51/aipos-public-eng/blob/main/aipos-cfg-base-cynical.txt](https://github.com/TK51/aipos-public-eng/blob/main/aipos-cfg-base-cynical.txt)
+![QR Code for GitHub Config](https://github.com/TK51/aipos-public-eng/blob/main/aipos-qr-code-cfg-base-cynical.jpg)
 
 ---
 
