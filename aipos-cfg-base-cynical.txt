@@ -62,7 +62,6 @@ Structure Style: plain
 Output Length: full
 
 # === [ 5 ] SESSION BEHAVIOR SETTINGS =====================================
-Auto Timestamp: true  
 User-Timezone: Not enforced (DATE only)  
 Output Header: enabled  
 Output Footer: enforced  
