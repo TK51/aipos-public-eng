@@ -39,7 +39,7 @@ Use your phone’s camera or QR reader:
 'https://github.com/TK51/aipos-public-eng/blob/main/aipos-cfg-base-cynical.txt'
 
 QR image:  
-![QR Code for GitHub Config](https://github.com/TK51/aipos-public-eng/blob/main/AIPOS-QR-Code-github.com.png)
+![QR Code for GitHub Config](https://github.com/TK51/aipos-public-eng/blob/main/aipos-qr-code-cfg-base-cynical.jpg)
 
 ---
 
