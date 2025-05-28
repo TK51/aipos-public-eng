@@ -1,5 +1,5 @@
 # 📛 NAMING-RULES.md  
-**Version:** 4.2.0-RULES  
+**Version:** 1.0.0-RULES   
 <!-- Last Updated: 2025-05-28 by Kay -->
 
 ---
