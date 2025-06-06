@@ -1,6 +1,6 @@
 # README.md  
 **Version:** 1.0  
-<!-- Last Updated: 2025-05-28 by Kay -->
+<!-- Last Updated: 2025-06-06 by Kay -->
 
 ---
 
@@ -97,3 +97,23 @@ AIPOS won’t make you magical.
 But it will make you fast, focused, and finally done.
 
 ---
+
+## For Those Asking “How Do I Learn This?”
+
+You don’t need a course.  
+You don’t need a tutorial.  
+You just need **one config, one screenrec, one system**.
+
+### 🔗 Quick Start:
+- [Watch AIPOS 2-Minute Walkthrough](#) ← link to screenrec or YouTube  
+- [Browse Signal Campaign Posts](#) ← link to STRIPSHOW post folder  
+- [Scan QR → Load Repo + Configs] ← screenshot embed in visuals
+
+> This system is not a product. It’s not gated.  
+> It’s a field method — built to run from mobile, terminal, or fallback memory.
+
+AIPOS is the opposite of AI prompts.  
+It’s **structure under collapse.**
+
+Use it. Fork it. Or ignore it.  
+The signal's already running.
