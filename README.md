@@ -11,8 +11,9 @@ It does not depend on ChatGPT remembering anything — you control the rules.
 
 You copy + paste config files into any chat (desktop or mobile), and immediately transform the model into a structured, tone-controlled, context-driven assistant.
 
-There is no magic.  
-But the outcomes feel like magic — because it removes 90% of fluff, inconsistency, and waste.
+There is no magic in the system.  
+but the results might feel like it — because it removes 90% of fluff, inconsistency, chaos, and waste.
+
 
 ---
 
