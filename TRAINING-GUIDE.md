@@ -33,6 +33,8 @@ AIPOS is stateless. It does not persist across sessions. You must paste your con
 
 How AIPOS Works (Concept)
 
+Think of the config like a rulebook you hand to the AI — it tells it how to behave.
+
 Each configuration file (`aipos-cfg-*.txt`) defines:
 - What the AI's role is
 - What tone and output style it should use
@@ -46,7 +48,7 @@ This allows you to reuse a known “mental state” of the AI across any task, i
 
 Mobile Compatibility
 
-AIPOS is fully usable on mobile devices. All configuration pastes and runtime commands work in both the ChatGPT mobile app and browser. If a large config fails to paste cleanly, break it into two parts and paste them in sequence. Disable formatting features like smart quotes or autocorrect to avoid input errors.
+AIPOS is fully usable on mobile devices. All configuration pastes and runtime commands work in both the ChatGPT mobile app and browser. If a large config fails to paste cleanly, break it into two parts and paste them in sequence. Turn off features like smart quotes or autocorrect — they can break how the AI reads your config.”  
 
 ---
 
@@ -71,7 +73,9 @@ Immediately after running `aiposrun`, provide a task. This can be:
 - A Markdown document you need written
 - A plan or checklist you want the AI to build
 
-AIPOS is designed to respond like a command-line automation assistant, not a conversation partner.
+AIPOS is designed to respond like a command-line automation assistant — not a conversation partner.
+But if your config defines a tutor, trainer, or explainer — it will act accordingly.
+It doesn’t improvise the mood. It obeys the mode.
 
 Be clear. You don’t need fluff.
 
@@ -119,7 +123,7 @@ aiposfooter
 
 If Things Break (Repair Logic)
 
-If AIPOS stops behaving correctly (becomes too chatty, loses tone, breaks structure), use:
+If AIPOS starts drifting & stops behaving correctly (becomes too chatty, loses or forgets tone, breaks structure), use:
 
 aiposvalidate  
 aiposrepair  
