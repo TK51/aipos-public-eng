@@ -1,1 +1,30 @@
-01-triggerless-closure.txt
+# 01-triggerless-closure.txt
+
+METHOD: Triggerless Closure — Session-Aware Completion Path
+
+Purpose:  
+Ensure systems don’t just collect and forget, but close with clarity.
+
+Core Steps:  
+1. Fire `contract_fulfilled` on last transaction  
+2. Detect user session state:  
+   - If session is active:  
+     → Show instant success message: “You’re done. Docs are being prepared.”  
+     → Deliver closure packet within 2 minutes  
+   - If user exited:  
+     → Fire `post_exit_completion_alert()`  
+     → On next login: display “You’re done” tile + doc link  
+
+3. Closure packet must include:  
+   - Completion message  
+   - Auto-generated PDF  
+   - Title/lien guidance  
+   - Archive access or feedback path  
+
+4. Reflect closure across:  
+   - UI (user-visible)  
+   - Support backend (agent trace logs)  
+   - Notification logs (for audit)  
+
+5. If user contacts support post-completion = system failure  
+   - Log: “Manual recovery event — automation miss”
