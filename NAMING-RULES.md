@@ -7,7 +7,7 @@
 ## Purpose
 
 This file defines the **non-negotiable naming rules** for AIPOS files.  
-If your files don’t follow this — they don’t belong in the system. Period.
+If your file names break these rules — they won’t fit the system. Simple as that.
 
 ---
 
@@ -41,7 +41,7 @@ aipos-cfg-
 
 ---
 
-### 3. Docs Don’t Use Prefix — But Must Be UPPERCASE
+### 3. Docs don’t start with a prefix — but they MUST be named in ALL CAPS with hyphens.
 
 High-level docs (rules, templates, indices) use **UPPERCASE with hyphens**:
 
@@ -97,7 +97,7 @@ aipos-cfg-[domain]-[purpose].txt
 
 ---
 
-## Violations to Kill On Sight
+## Violations That Break Compliance (Auto-Reject)
 
 - Snake_case names  
 - Missing filename in header  
