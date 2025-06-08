@@ -1,7 +1,7 @@
 # TRAINING-GUIDE.md  
 Version: 1.0  
 Author: Kay (Taras Khamardiuk)  
-Date: 2025-06-08  
+<!-- Last Updated: 2025-06-08 by Kay -->
 
 ---
 
