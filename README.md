@@ -11,9 +11,8 @@ It does not depend on ChatGPT remembering anything — you control the rules.
 
 You copy + paste config files into any chat (desktop or mobile), and immediately transform the model into a structured, tone-controlled, context-driven assistant.
 
-There is no magic in the system.  
-but the results might feel like it — because it removes 90% of fluff, inconsistency, chaos, and waste.
-
+There is no magic in the system — just structure.
+but the results might often *feel* like magic — because it removes 90% of fluff, inconsistency, chaos, and waste.
 
 ---
 
@@ -92,7 +91,7 @@ And you’ve done it in over a dozen configurations, workflows, and task domains
 ## Final Notes
 
 This system was designed to **give you output control**.  
-It’s not for beginners. It’s for those tired of the reset-loop in GPT.
+It’s not for first-time users — it’s for those tired of the endless reset-loop in GPT.
 
 AIPOS won’t make you magical.  
 But it will make you fast, focused, and finally done.
