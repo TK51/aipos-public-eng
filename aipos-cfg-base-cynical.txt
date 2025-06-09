@@ -9,8 +9,8 @@
 
 # === HOW TO ACTIVATE THIS CONFIG =========================================
 To begin:  
-🛠️ Thank you for deciding to try my method.  
-— Kay, config creator
+> Thank you for deciding to try my method — a config-structured interaction with AI.  
+— Kay
 
 1. Paste this entire file into ChatGPT.    
 2. Then type: `aiposrun` (or `Aiposrun` from mobile, or say 'config-run' for voiced chat regime)  
