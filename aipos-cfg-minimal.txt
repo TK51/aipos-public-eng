@@ -1,14 +1,14 @@
 # aipos-cfg-minimal.txt  
 # Version: 1.0  
-<!-- Last Updated: 2025-05-28 by Kay -->
+<!-- Last Updated: 2025-06-08 by Kay -->
 
 # ChatGPT: Read and apply this file.  
-# Minimal config — structure-only. Output formatting is not enforced.
+# Minimal config — structure logic only. Output format and tone rules not enforced.
 
 # === HOW TO ACTIVATE THIS CONFIG =========================================
-1. Paste this entire file into ChatGPT  
-2. Then type: `aiposrun` (or `Aiposrun` from mobile)  
-→ AI locks into declared logic — minimal structure, full control.
+1. Paste this entire file into ChatGPT.  
+2. Then type: `aiposrun` (or `Aiposrun` from mobile, or say 'config-run' for voiced chat regime)  
+→ Structural enforcement will begin immediately.
 
 # === [ 1 ] USER CONTEXT BLOCK ============================================
 User Role: Tactical Architect • Systems Integrator • Runtime Builder  
