@@ -26,7 +26,7 @@ If your phone has:
 - Scan the AIPOS QR code  
 - Download the config file (`aipos-cfg-base-cynical.txt`)  
 - Open or edit it on your phone (optional)  
-- Paste the full contents into a new ChatGPT session  
+- Paste the file or its full contents into a new ChatGPT session  
 - Type `aiposrun` (or `Aiposrun` on mobile) — and you’re live
 - Or say `config-run` in the voiced chat mode (works the same as `aiposrun`)
 
@@ -46,9 +46,13 @@ QR image:
 
 #### 2. Download the File  
 - Tap the GitHub link  
-- Scroll to `aipos-cfg-base-cynical.txt`  
-- Tap “Download”  
-- Save it to your local files
+- The file (`aipos-cfg-base-cynical.txt`) will open in your browser  
+- Tap “Download” (or share → Save, if needed)  
+- Save it to your phone’s local files
+
+⚠️ Platform Notes:  
+- Android: Download usually works fine in both GitHub app and web browser
+- iOS: Use Safari — GitHub app lacks direct file save, web browser has some specific scenario
 
 ---
 
@@ -61,10 +65,11 @@ QR image:
 
 #### 4. Paste into ChatGPT  
 - Open ChatGPT mobile browser or app  
-- In a new session, paste the config as your first message  
+- In a new session, paste the config or its content as your first message  
 - Then type:  
   - `aiposrun`  
   - or `Aiposrun` (if your phone autocapitalizes)
+  - or say `config-run` in the voiced chat mode
 
 ---
 
