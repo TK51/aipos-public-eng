@@ -75,9 +75,10 @@ Mobile Mode: Sequential file-paste supported
 # │ GPT-3.5 (Free Tier)        │      4,096 tokens    │   ~3,000–3,500 chars      │  
 # └────────────────────────────┴──────────────────────┴───────────────────────────┘  
 
+---
+
+# Config authored by Kay (Taras Khamardiuk)  
+# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
 # Runtime Verified by: Cee-nical Cee  
 # Execution Protocol Version: 1.0.0  
 # Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
-# —  
-# Config authored by Kay (Taras Khamardiuk)  
-# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk
