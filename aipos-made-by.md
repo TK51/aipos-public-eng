@@ -7,7 +7,7 @@ Author: Kay (Taras Khamardiuk)
 ## Who Built This
 
 **Name:** Kay (aka Taras Khamardiuk)  
-**Roles:** BI Specialist • Systems Thinker • Automation Architect  
+**Roles:** Platform Thinker • Systems Designer • Automation Architect — BI-forged visionaire  
 **Location:** Greater Sacramento, CA — originally from Ukraine  
 **Tone:** Cynical. Practical. Quietly precise.  
 
@@ -57,6 +57,7 @@ Not trend-chasers.
 This system was built by someone who got tired of chasing memory and decided to build structure instead.  
 If you’ve felt the same — take what works and make it yours.
 
+**Silent signal. Crafted by someone who tabulated truth while others built carousels.**
 ---
 
 ## Contact / Reference
