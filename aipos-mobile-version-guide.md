@@ -1,6 +1,6 @@
 # aipos-mobile-version-guide.md  
 Version: 1.0  
-<!-- Last Updated: 2025-05-28 by Kay -->
+<!-- Last Updated: 2025-06-08 by Kay -->
 
 ---
 
@@ -28,6 +28,7 @@ If your phone has:
 - Open or edit it on your phone (optional)  
 - Paste the full contents into a new ChatGPT session  
 - Type `aiposrun` (or `Aiposrun` on mobile) — and you’re live
+- Or say `config-run` in the voiced chat mode (works the same as `aiposrun`)
 
 ---
 
