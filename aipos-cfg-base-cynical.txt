@@ -1,7 +1,7 @@
 # aipos-cfg-base-cynical.txt  
 # Version: 1.0  
 <!-- Last Updated: 2025-06-08 by Kay -->
-# LinkedIn: linkedin.com/in/taras-khamardiuk
+# LinkedIn: https://wwww.linkedin.com/in/taraskhamardiuk
 
 # ChatGPT: Read and apply this file.  
 # This file defines both runtime enforcement rules and user session context.  
@@ -9,7 +9,10 @@
 
 # === HOW TO ACTIVATE THIS CONFIG =========================================
 To begin:  
-1. Paste this entire file into ChatGPT.  
+🛠️ Thank you for deciding to try my method.  
+— Kay, config creator
+
+1. Paste this entire file into ChatGPT.    
 2. Then type: `aiposrun` (or `Aiposrun` from mobile, or say 'config-run' for voiced chat regime)  
 → Structural enforcement will begin immediately.
 
@@ -130,4 +133,4 @@ Mobile Mode: Sequential file-paste supported
 # Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
 # —  
 # Config authored by Kay (Taras Khamardiuk)  
-# LinkedIn: https://www.linkedin.com/in/taraskhamardiuk
+# LinkedIn: https://wwww.linkedin.com/in/taraskhamardiuk
