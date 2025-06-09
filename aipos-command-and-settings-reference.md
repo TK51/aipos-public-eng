@@ -38,7 +38,7 @@ Default = `rawtext`. Format is fixed unless you override it.
 | `aipossummary`  | Return system log summary (last runtime phase)       |
 
 Mobile-friendly: `aiposrun` and `Aiposrun` are equivalent — they work the same.
-Also, you can use `config-run` for voiced chat mode - equals `aiposrun`/`Aiposrun`.
+You can also say `config-run` in voiced chat mode — it works just like `aiposrun` or `Aiposrun`.
 
 ---
 
@@ -58,7 +58,7 @@ Also, you can use `config-run` for voiced chat mode - equals `aiposrun`/`Aiposru
 | Solution Architect  | Modular thinking, infrastructure design          |
 | Operations Analyst  | Reporting metrics, alert criteria, triggers      |
 
-Roles are set and come from your config or can be switched using `aiposrole [x]`
+Roles are set and loaded from your config or can be switched at runtime using `aiposrole [x]`.
 
 ---
 
@@ -123,4 +123,4 @@ Commands are system instructions.
 Roles are declared contexts.  
 Tone is enforced behavior.
 
-f it’s not listed here, it won’t work in AIPOS v1.
+If it’s not listed here, it won’t work in AIPOS v1.
