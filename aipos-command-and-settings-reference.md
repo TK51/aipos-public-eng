@@ -1,6 +1,6 @@
 # aipos-command-and-settings-reference.md  
 Version: 1.0  
-<!-- Last Updated: 2025-05-28 by Kay -->
+<!-- Last Updated: 2025-06-08 by Kay -->
 
 ---
 
@@ -20,7 +20,7 @@ No filler. No emoji. This is execution logic only.
 | `markdown` | Markdown + formatting (visual/preview mode)     |
 | `python`   | Code output only (scripts, config blocks)       |
 
-Default = `rawtext`. Format is enforced unless overridden.
+Default = `rawtext`. Format is fixed unless you override it.
 
 ---
 
@@ -37,7 +37,8 @@ Default = `rawtext`. Format is enforced unless overridden.
 | `aiposrepair`   | Patch broken format, footer drift, or ghost logic    |
 | `aipossummary`  | Return system log summary (last runtime phase)       |
 
-Mobile-friendly: `aiposrun` and `Aiposrun` are equivalent.  
+Mobile-friendly: `aiposrun` and `Aiposrun` are equivalent — they work the same.
+Also, you can use `config-run` for voiced chat mode - equals `aiposrun`/`Aiposrun`.
 
 ---
 
@@ -57,7 +58,7 @@ Mobile-friendly: `aiposrun` and `Aiposrun` are equivalent.
 | Solution Architect  | Modular thinking, infrastructure design          |
 | Operations Analyst  | Reporting metrics, alert criteria, triggers      |
 
-Roles are set via config or explicitly overridden with `aiposrole [x]`.
+Roles are set and come from your config or can be switched using `aiposrole [x]`
 
 ---
 
@@ -97,7 +98,9 @@ Set with: `aiposfeedback [mode]`
 ## ENFORCED RULES
 
 - Role + tone + footer = locked by config or override only.  
-- Tone drift is invalid and auto-corrected.  
+- Tone drift is rejected by config, but may still occur in long sessions.  
+  This runtime enforces alignment when detected — users should recalibrate manually if output slips.  
+  Rerun `aiposvalidate` or reapply config to restore tone lock.  
 - Footer failure = execution error.  
 - Prompt-style inputs = ignored unless explicitly declared as commands.
 
@@ -120,4 +123,4 @@ Commands are system instructions.
 Roles are declared contexts.  
 Tone is enforced behavior.
 
-If it’s not listed here, it doesn’t run in v1.
+f it’s not listed here, it won’t work in AIPOS v1.
