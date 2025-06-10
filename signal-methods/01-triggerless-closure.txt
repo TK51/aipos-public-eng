@@ -6,7 +6,12 @@ Purpose:
 Ensure systems don’t just collect and forget, but close with clarity.
 
 1. Trigger Finalization  
-   -> Fire 'contract_fulfilled' event after final confirmed transaction
+   → Monitor for either:  
+     a) Final confirmed internal payment  
+     b) External balance update: balance = 0 AND no scheduled dues  
+   → Once detected, fire 'contract_fulfilled' event immediately
+
+Note: Closure must be triggered regardless of whether payment was made inside the platform or externally (e.g. bank branch, third-party servicer).
 
 2. Detect User Session Context  
    - Session Active:  
