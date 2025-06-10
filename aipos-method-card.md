@@ -64,6 +64,6 @@ The method card is a compact reference for anyone unfamiliar with AIPOS runtime 
 
 ---
 
-### Document authored by Kay (Taras Khamardiuk)  
-### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
-### Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
+#### Document authored by Kay (Taras Khamardiuk)  
+#### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+#### Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
