@@ -124,3 +124,9 @@ Use hyphens. Declare names inside files. Reject fluff.
 This is your **operational backbone**.
 
 Break this — break your system.
+
+---
+
+#### Document authored by Kay (Taras Khamardiuk)  
+#### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+#### Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
