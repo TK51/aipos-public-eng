@@ -203,3 +203,9 @@ And you use it when reliability matters.
 
 If it drifts — reload.  
 If it works — deploy.
+
+---
+
+#### Document authored by Kay (Taras Khamardiuk)  
+#### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+#### Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
