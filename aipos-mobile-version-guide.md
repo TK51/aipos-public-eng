@@ -94,3 +94,9 @@ QR image:
 
 > Mobile ≠ Limited.  
 > If your config runs, your structure runs — even in your pocket.
+
+---
+
+# Document authored by Kay (Taras Khamardiuk)  
+# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+# Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
