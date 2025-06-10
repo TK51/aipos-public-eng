@@ -28,3 +28,9 @@ Core Steps:
 
 5. If user contacts support post-completion = system failure  
    - Log: “Manual recovery event — automation miss”
+
+---
+
+# Method authored by Kay (Taras Khamardiuk)  
+# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+# Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
