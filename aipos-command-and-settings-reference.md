@@ -124,3 +124,9 @@ Roles are declared contexts.
 Tone is enforced behavior.
 
 If it’s not listed here, it won’t work in AIPOS v1.
+
+---
+
+# Document authored by Kay (Taras Khamardiuk)  
+# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+# Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
