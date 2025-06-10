@@ -63,3 +63,7 @@ Target QR image URL:
 The method card is a compact reference for anyone unfamiliar with AIPOS runtime logic. It works visually — no explanation needed. If they don’t get the document, they’ll get the diagram.
 
 ---
+
+# Document authored by Kay (Taras Khamardiuk)  
+# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+# Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
