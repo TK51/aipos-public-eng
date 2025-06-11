@@ -70,4 +70,3 @@ If you’ve felt the same — take what works and make it yours.
 This isn’t flash. It’s structure.  
 From Ukrainians — with love to humankind.  
 `#fromukrainianswithlovetohumankind 🇺🇦`
-#### Signal Tag: #aiposbuilt
