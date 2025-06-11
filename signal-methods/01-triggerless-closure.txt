@@ -44,9 +44,9 @@ If closure is not visible, it did not happen.
 
 ---
 
-# Method authored by Kay (Taras Khamardiuk)  
-# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
-# Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
+#### Method authored by Kay (Taras Khamardiuk)  
+#### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+#### Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
 
 ==========================================================
 #### Signal Tag: #aiposbuilt
