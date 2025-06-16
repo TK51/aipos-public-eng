@@ -5,7 +5,7 @@ Author: Kay (Taras Khamardiuk)
 
 ---
 
-Overview
+## Overview
 
 This document is a complete, user-centered guide to running AIPOS — the AI Personal Operational System — using ChatGPT and a single configuration file.
 
@@ -15,7 +15,7 @@ No installation is needed. No coding knowledge is required to begin. Once you lo
 
 ---
 
-What You Need
+## What You Need
 
 1. A ChatGPT Plus account (GPT-4o model recommended)
 2. A prebuilt configuration file (example: aipos-cfg-base-cynical.txt)
@@ -31,7 +31,7 @@ AIPOS is stateless. It does not persist across sessions. You must paste your con
 
 ---
 
-How AIPOS Works (Concept)
+## How AIPOS Works (Concept)
 
 Think of the config like a rulebook you hand to the AI — it tells it how to behave.
 
@@ -46,15 +46,15 @@ This allows you to reuse a known “mental state” of the AI across any task, i
 
 ---
 
-Mobile Compatibility
+## Mobile Compatibility
 
 AIPOS is fully usable on mobile devices. All configuration pastes and runtime commands work in both the ChatGPT mobile app and browser. If a large config fails to paste cleanly, break it into two parts and paste them in sequence. Turn off features like smart quotes or autocorrect — they can break how the AI reads your config.”  
 
 ---
 
-Step-by-Step: Using AIPOS
+## Step-by-Step: Using AIPOS
 
-Step 1 — Load the Configuration
+### Step 1 — Load the Configuration
 
 1. Open the configuration file in your text editor.
 2. Select all content and copy it (from the first line to the last).
@@ -65,7 +65,7 @@ aiposrun
 
 ChatGPT will confirm the session is now locked into its AIPOS role.
 
-Step 2 — Tell It What You Want
+### Step 2 — Tell It What You Want
 
 Immediately after running `aiposrun`, provide a task. This can be:
 - A file-related request (e.g., convert data, clean folder, merge reports)
@@ -79,7 +79,7 @@ It doesn’t improvise the mood. It obeys the mode.
 
 Be clear. You don’t need fluff.
 
-Step 3 — Understand the Output Rules
+### Step 3 — Understand the Output Rules
 
 Unless explicitly changed in the config, all AIPOS output will follow strict rules:
 
@@ -97,7 +97,7 @@ This is enforced to keep your outputs professional and repeatable.
 
 ---
 
-Available Commands (After aiposrun)
+## Available Commands (After aiposrun)
 
 You can use the following commands once AIPOS is running:
 
@@ -121,7 +121,7 @@ aiposfooter
 
 ---
 
-If Things Break (Repair Logic)
+## If Things Break (Repair Logic)
 
 If AIPOS starts drifting & stops behaving correctly (becomes too chatty, loses or forgets tone, breaks structure), use:
 
@@ -137,7 +137,7 @@ This will fully reset the session.
 
 ---
 
-Example Session (What Success Looks Like)
+## Example Session (What Success Looks Like)
 
 User:  
 [pastes full config file]
@@ -162,7 +162,7 @@ AI:
 
 ---
 
-Recommended Folder Structure
+## Recommended Folder Structure
 
 You should store your configs and outputs in a clean repo or folder. Example structure:
 
@@ -181,7 +181,7 @@ This makes your logic portable, explainable, and ready for reuse or collaboratio
 
 ---
 
-What Not To Do
+## What Not To Do
 
 - Do not paste partial config files — the system will break silently
 - Do not use formatting tools in ChatGPT (headers, bullets, markdown toggle)
@@ -191,7 +191,7 @@ What Not To Do
 
 ---
 
-Final Reminder
+## Final Reminder
 
 AIPOS is not here to chat.  
 It is a behavioral framework for controlled, predictable, and scalable AI tasking.
