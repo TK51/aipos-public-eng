@@ -1,16 +1,19 @@
-# aipos-method-card.md  
+#### aipos-method-card.md  
 Version: 1.0  
 <!-- Last Updated: 2025-06-08 by Kay -->
+---
+
+## AIPOS Method Card
 
 ---
 
-## PURPOSE
+### PURPOSE
 
 This file describes the AIPOS method card — a compact visual that outlines how runtime enforcement works through session config logic. This is not a plugin, not a prompt — it's execution protocol in visual form.
 
 ---
 
-## RUNTIME FLOW DIAGRAM
+### RUNTIME FLOW DIAGRAM
 
 [ USER ]  
    │  
@@ -29,7 +32,7 @@ This file describes the AIPOS method card — a compact visual that outlines how
 
 ---
 
-## VISUAL CARD LABELS (LEGEND)
+### VISUAL CARD LABELS (LEGEND)
 
 | Label        | Meaning                                              |
 |--------------|------------------------------------------------------|
@@ -41,7 +44,7 @@ This file describes the AIPOS method card — a compact visual that outlines how
 
 ---
 
-## FOOTER TEXT (ON IMAGE)
+### FOOTER TEXT (ON IMAGE)
 
 Not a plugin. Not a prompt.  
 A method.  
@@ -49,7 +52,7 @@ Copy. Edit. Paste. Control.
 
 ---
 
-## QR CODE LINK
+### QR CODE LINK
 
 Embed this in the bottom-right of the card image.  
 Target QR image URL:
@@ -58,7 +61,7 @@ Target QR image URL:
 
 ---
 
-## NOTE
+### NOTE
 
 The method card is a compact reference for anyone unfamiliar with AIPOS runtime logic. It works visually — no explanation needed. If they don’t get the document, they’ll get the diagram.
 
