@@ -12,7 +12,7 @@ It does not depend on ChatGPT remembering anything — you control the rules.
 You copy + paste config files into any chat (desktop or mobile), and immediately transform the model into a structured, tone-controlled, context-driven assistant.
 
 There is no magic in the system — just structure.
-but the results might often *feel* like magic — because it removes 90% of fluff, inconsistency, chaos, and waste.
+but the results might often *feel* like magic — because it removes 90% of fluff, inconsistency, chaos, and waste. Still, within every session, you need to watch for AI drift. AIPOS gives you the config validation handle to reassert tone, structure, and role — before the thread collapses.
 
 ---
 
