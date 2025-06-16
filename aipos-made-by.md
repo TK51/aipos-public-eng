@@ -66,7 +66,7 @@ If you’ve felt the same — take what works and make it yours.
 
 ### Contact / Reference
 
-- LinkedIn: [linkedin.com/in/[Kay](https://www.linkedin.com/in/taras-khamardiuk)]  
+- LinkedIn: [linkedin.com/in/Kay](https://www.linkedin.com/in/taras-khamardiuk)
 - GitHub: [github.com/TK51](https://github.com/TK51)  
 
 ---
