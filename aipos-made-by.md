@@ -1,7 +1,7 @@
 #### aipos-made-by.md  
 **Version:** 1.0  
 <!-- Last Updated: 2025-06-15 by Kay -->
-#### Author: [Kay](https://www.linkedin.com/in/taras-khamardiuk)
+
 ---
 
 ## AIPOS Made by
@@ -10,7 +10,7 @@
 
 ### Who Built This
 
-**Name:** Kay (aka Taras Khamardiuk)  
+**Name:** [Kay](https://www.linkedin.com/in/taras-khamardiuk) (aka Taras Khamardiuk)  
 **Roles:** Platform Thinker • Systems Designer • Automation Architect — BI-forged visionaire  
 **Location:** Greater Sacramento, CA — originally from Ukraine  
 **Tone:** Cynical. Practical. Quietly precise.  
