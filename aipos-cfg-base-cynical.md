@@ -1,7 +1,7 @@
 # aipos-cfg-base-cynical.txt  
 ### Version: 1.0  
 <!-- Last Updated: 2025-06-08 by Kay -->
-### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk
+### LinkedIn: [https://www.linkedin.com/in/taras-khamardiuk]
 
 ChatGPT: Read and apply this file.  
 This file defines both runtime enforcement rules and user session context.  
