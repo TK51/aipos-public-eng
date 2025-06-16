@@ -121,6 +121,7 @@ Mobile Mode: Sequential file-paste supported
 
  
 │        Model Tier          │     Input Limit      │     Character Capacity    │  
+|----------------------------|----------------------|---------------------------|
 │ GPT-4o (ChatGPT Pro)       │    128,000 tokens    │   ~90,000–100,000 chars   │  
 │ GPT-4 Turbo (ChatGPT Pro)  │    128,000 tokens    │   ~90,000–100,000 chars   │  
 │ GPT-4 (Legacy)             │     8K–32K tokens    │   ~6,000–25,000 chars     │  
