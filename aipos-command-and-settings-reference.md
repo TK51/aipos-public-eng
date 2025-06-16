@@ -4,14 +4,14 @@ Version: 1.0
 
 ---
 
-## PURPOSE
+### PURPOSE
 
 Defines all approved AIPOS v1 command triggers, runtime roles, tone modes, and feedback packs.  
 No filler. No emoji. This is execution logic only.
 
 ---
 
-## OUTPUT FORMAT MODES
+### OUTPUT FORMAT MODES
 
 | Format     | Description                                     |
 |------------|-------------------------------------------------|
@@ -24,7 +24,7 @@ Default = `rawtext`. Format is fixed unless you override it.
 
 ---
 
-## AIPOS COMMAND TRIGGERS
+### AIPOS COMMAND TRIGGERS
 
 | Command         | Description                                          |
 |----------------|------------------------------------------------------|
@@ -42,7 +42,7 @@ You can also say `config-run` in voiced chat mode — it works just like `aiposr
 
 ---
 
-## APPROVED AI ROLES
+### APPROVED AI ROLES
 
 | Role ID             | Primary Use Case                                |
 |---------------------|--------------------------------------------------|
@@ -62,7 +62,7 @@ Roles are set and loaded from your config or can be switched at runtime using `a
 
 ---
 
-## APPROVED TONE MODES
+### APPROVED TONE MODES
 
 | Tone Label     | Notes                                           |
 |----------------|-------------------------------------------------|
@@ -81,7 +81,7 @@ Override with `aipostone [mode]`.
 
 ---
 
-## FEEDBACK MODES
+### FEEDBACK MODES
 
 | Mode Label     | Description                                               |
 |----------------|-----------------------------------------------------------|
@@ -95,7 +95,7 @@ Set with: `aiposfeedback [mode]`
 
 ---
 
-## ENFORCED RULES
+### ENFORCED RULES
 
 - Role + tone + footer = locked by config or override only.  
 - Tone drift is rejected by config, but may still occur in long sessions.  
@@ -106,7 +106,7 @@ Set with: `aiposfeedback [mode]`
 
 ---
 
-## LEGACY DEPRECATIONS
+### LEGACY DEPRECATIONS
 
 The following are blocked:
 
@@ -117,7 +117,7 @@ The following are blocked:
 
 ---
 
-## FINAL LINE
+### FINAL LINE
 
 Commands are system instructions.  
 Roles are declared contexts.  
@@ -128,6 +128,8 @@ If it’s not listed here, it won’t work in AIPOS v1.
 ---
 
 #### Document authored by Kay (Taras Khamardiuk)  
-#### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
-#### Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
-#### Signal Tag: #aiposbuilt
+#### LinkedIn: [Taras Khamardiuk](https://www.linkedin.com/in/taras-khamardiuk)  
+     Runtime Verified by: Cee-nical Cee  
+     Execution Protocol Version: 1.0.0  
+     Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦  
+     Signal Tag: #aiposbuilt
