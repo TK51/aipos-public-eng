@@ -4,6 +4,10 @@ Version: 1.0
 
 ---
 
+## AIPOS Command and Settings Reference
+
+---
+
 ### PURPOSE
 
 Defines all approved AIPOS v1 command triggers, runtime roles, tone modes, and feedback packs.  
