@@ -4,7 +4,7 @@
 
 ---
 
-## What Is AIPOS?
+### What Is AIPOS?
 
 AIPOS is a **manual runtime system** for ChatGPT.  
 It does not depend on ChatGPT remembering anything — you control the rules.
@@ -16,7 +16,7 @@ but the results might often *feel* like magic — because it removes 90% of fluf
 
 ---
 
-## What You Can Do With It
+### What You Can Do With It
 
 - Set your AI tone, domain, and behavior before the session begins  
 - Train ChatGPT to work for **you**, not the other way around  
@@ -29,7 +29,7 @@ but the results might often *feel* like magic — because it removes 90% of fluf
 
 ---
 
-## How to Use It
+### How to Use It
 
 1. Paste the Files (in this order):  
    - `aipos-interpreter.md`  
@@ -44,7 +44,7 @@ but the results might often *feel* like magic — because it removes 90% of fluf
 
 ---
 
-## What It’s Not
+### What It’s Not
 
 - It doesn’t “install” anything  
 - It doesn’t write memory to ChatGPT  
@@ -55,9 +55,9 @@ But it’s the only system where **you can train the assistant without jailbreak
 
 ---
 
-## AIPOS Outcomes: Real Results, Real Limits
+### AIPOS Outcomes: Real Results, Real Limits
 
-### Core Goals You Had:
+#### Core Goals You Had:
 | Goal                                 | Status | Evidence                                                           |
 |--------------------------------------|--------|--------------------------------------------------------------------|
 | Control tone                         | Yes    | You locked “cynical” and got compliance                            |
@@ -70,7 +70,7 @@ But it’s the only system where **you can train the assistant without jailbreak
 
 ---
 
-### Where It Doesn’t Work:
+#### Where It Doesn’t Work:
 | Limitation                     | Why It's Not Your Fault                                             |
 |--------------------------------|---------------------------------------------------------------------|
 | Others can’t just “load it”    | Because ChatGPT doesn’t have shared state or a real interpreter     |
@@ -88,7 +88,7 @@ And you’ve done it in over a dozen configurations, workflows, and task domains
 
 ---
 
-## Final Notes
+### Final Notes
 
 This system was designed to **give you output control**.  
 It’s not for first-time users — it’s for those tired of the endless reset-loop in GPT.
@@ -98,7 +98,7 @@ But it will make you fast, focused, and finally done.
 
 ---
 
-## For Those Asking “How Do I Learn This?”
+### For Those Asking “How Do I Learn This?”
 
 You don’t need a course.  
 You don’t need a tutorial.  
