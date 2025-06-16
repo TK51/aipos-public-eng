@@ -1,7 +1,7 @@
 # aipos-cfg-minimal.txt  
-# Version: 1.0  
+Version: 1.0  
 <!-- Last Updated: 2025-06-08 by Kay -->
-# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk
+LinkedIn: https://www.linkedin.com/in/taras-khamardiuk
 
 # ChatGPT: Read and apply this file.  
 # Minimal config — structure logic only. Output format and tone rules not enforced.
@@ -77,9 +77,9 @@ Mobile Mode: Sequential file-paste supported
 
 ---
 
-# Config authored by Kay (Taras Khamardiuk)  
-# LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
-# Runtime Verified by: Cee-nical Cee  
-# Execution Protocol Version: 1.0.0  
-# Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
-#### Signal Tag: #aiposbuilt
+#### Config authored by Kay (Taras Khamardiuk)  
+#### LinkedIn: https://www.linkedin.com/in/taras-khamardiuk  
+     Runtime Verified by: Cee-nical Cee  
+     Execution Protocol Version: 1.0.0  
+     Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦
+     Signal Tag: #aiposbuilt
