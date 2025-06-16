@@ -97,7 +97,7 @@ QR image:
 
 ---
 
-#### Config authored by Kay (Taras Khamardiuk)  
+#### Document authored by Kay (Taras Khamardiuk)  
 #### LinkedIn: [Taras Khamardiuk](https://www.linkedin.com/in/taras-khamardiuk) 
     Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦  
     Signal Tag: #aiposbuilt
