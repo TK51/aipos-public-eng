@@ -1,6 +1,6 @@
 #### aipos-made-by.md  
-Version: 1.0  
-Author: [Kay](https://www.linkedin.com/in/taras-khamardiuk)
+#### Version: 1.0  
+#### Author: [Kay](https://www.linkedin.com/in/taras-khamardiuk)
 ---
 
 ## AIPOS Made by
