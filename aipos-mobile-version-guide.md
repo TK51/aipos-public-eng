@@ -51,8 +51,8 @@ QR image:
 - Save it to your phone’s local files
 
 ⚠️ Platform Notes:  
-- Android: Download usually works fine in both GitHub app and web browser
-- iOS: Use Safari — GitHub app lacks direct file save, web browser has some specific scenario [see how](https://youtube.com/shorts/XznbBT0LmAo)
+- Android: Download usually works fine in both GitHub app and web browser ([see how](https://youtube.com/shorts/Lhln2_BZKFM))
+- iOS: Use Safari — GitHub app lacks direct file save, web browser has some specific scenario ([see how](https://youtube.com/shorts/XznbBT0LmAo))
 
 ---
 
