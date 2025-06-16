@@ -4,7 +4,7 @@
 
 ---
 
-## AIPOS Maming Rules
+## Naming Rules
 
 ---
 
