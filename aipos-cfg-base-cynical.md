@@ -120,12 +120,12 @@ Mobile Mode: Sequential file-paste supported
 ## === CONTEXT SIZE LIMITS (As of 2025-05-27) ===============================
 
  
-│        Model Tier          │     Input Limit      │     Character Capacity    │  
-|----------------------------|----------------------|---------------------------|
-│ GPT-4o (ChatGPT Pro)       │    128,000 tokens    │   ~90,000–100,000 chars   │  
-│ GPT-4 Turbo (ChatGPT Pro)  │    128,000 tokens    │   ~90,000–100,000 chars   │  
-│ GPT-4 (Legacy)             │     8K–32K tokens    │   ~6,000–25,000 chars     │  
-│ GPT-3.5 (Free Tier)        │      4,096 tokens    │   ~3,000–3,500 chars      │  
+| Model Tier               | Input Limit         | Character Capacity       |
+|--------------------------|---------------------|---------------------------|
+| GPT-4o (ChatGPT Pro)     | 128,000 tokens       | ~90,000–100,000 chars     |
+| GPT-4 Turbo (ChatGPT Pro)| 128,000 tokens       | ~90,000–100,000 chars     |
+| GPT-4 (Legacy)           | 8K–32K tokens        | ~6,000–25,000 chars       |
+| GPT-3.5 (Free Tier)      | 4,096 tokens         | ~3,000–3,500 chars        |
   
 
 ---
