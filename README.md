@@ -8,6 +8,7 @@
 
 AIPOS is a **manual runtime system** for ChatGPT.  
 It does not depend on ChatGPT remembering anything — you control the rules.  
+
 You copy + paste config files into any chat (desktop or mobile), and immediately transform the model into a structured, tone-controlled, context-driven assistant.
 
 There is no magic in the system — just structure.  
