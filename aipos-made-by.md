@@ -61,7 +61,7 @@ Not trend-chasers.
 This system was built by someone who got tired of chasing memory and decided to build structure instead.  
 If you’ve felt the same — take what works and make it yours.
 
-### **Silent signal. Crafted by someone who tabulated truth while others built carousels.**
+#### **Silent signal. Crafted by someone who tabulated truth while others built carousels.**
 ---
 
 ### Contact / Reference
