@@ -52,7 +52,7 @@ QR image:
 
 ⚠️ Platform Notes:  
 - Android: Download usually works fine in both GitHub app and web browser
-- iOS: Use Safari — GitHub app lacks direct file save, web browser has some specific scenario
+- iOS: Use Safari — GitHub app lacks direct file save, web browser has some specific scenario [video](https://youtube.com/shorts/XznbBT0LmAo)
 
 ---
 
