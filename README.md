@@ -109,7 +109,7 @@ You just need **one config, one screenrec, one system**.
 - [Browse Signal Campaign Posts](#) ← link to STRIPSHOW post folder  
 - [Scan QR → Load Repo + Configs]  
   <br>
- ![QR](https://raw.githubusercontent.com/TK51/aipos-public-eng/main/docs/visuals/aipos-qr-code-cfg-base-cynical.jpg)
+ ![QR](https://github.com/TK51/aipos-public-eng/raw/main/aipos-qr-code-cfg-base-cynical.jpg)
 
 > This system is not a product. It’s not gated.  
 > It’s a field method — built to run from mobile, terminal, or fallback memory.
