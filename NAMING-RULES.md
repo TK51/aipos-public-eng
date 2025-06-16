@@ -1,4 +1,4 @@
-# NAMING-RULES.txt
+# NAMING-RULES.md
 **Version:** 1.0-RULES   
 <!-- Last Updated: 2025-06-08 by Kay -->
 
