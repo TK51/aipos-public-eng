@@ -4,7 +4,7 @@ Author: [Kay](https://www.linkedin.com/in/taras-khamardiuk)
 
 ---
 
-## Who Built This
+### Who Built This
 
 **Name:** Kay (aka Taras Khamardiuk)  
 **Roles:** Platform Thinker • Systems Designer • Automation Architect — BI-forged visionaire  
@@ -13,7 +13,7 @@ Author: [Kay](https://www.linkedin.com/in/taras-khamardiuk)
 
 ---
 
-## Why AIPOS Exists
+### Why AIPOS Exists
 
 Because repeating yourself to AI is bad design.  
 Because prompts are brittle.  
@@ -25,7 +25,7 @@ It delivers clean, trackable, infrastructure-level output — if you build it th
 
 ---
 
-## What I Actually Do
+### What I Actually Do
 
 - Design systems that reduce waste and manual burden  
 - Translate chaotic workflows into structured, repeatable steps  
@@ -39,7 +39,7 @@ It delivers clean, trackable, infrastructure-level output — if you build it th
 
 ---
 
-## Core Beliefs
+### Core Beliefs
 
 - Prompts aren't systems.  
 - You don’t fix AI drift with cleverness. You fix it with structure.  
@@ -48,7 +48,7 @@ It delivers clean, trackable, infrastructure-level output — if you build it th
 
 ---
 
-## Who This Is For
+### Who This Is For
 
 Not recruiters.  
 Not followers.  
@@ -60,7 +60,7 @@ If you’ve felt the same — take what works and make it yours.
 **Silent signal. Crafted by someone who tabulated truth while others built carousels.**
 ---
 
-## Contact / Reference
+### Contact / Reference
 
 - LinkedIn: [linkedin.com/in/tkhamardiuk](https://www.linkedin.com/in/taras-khamardiuk/)  
 - GitHub: [github.com/TK51](https://github.com/TK51)  
