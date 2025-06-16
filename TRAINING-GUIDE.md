@@ -206,7 +206,7 @@ If it works — deploy.
 
 ---
 
-Document authored by Kay (Taras Khamardiuk)  
-LinkedIn: [Taras Khamardiuk](https://www.linkedin.com/in/taras-khamardiuk) 
+#### Document authored by Kay (Taras Khamardiuk)  
+#### LinkedIn: [Taras Khamardiuk](https://www.linkedin.com/in/taras-khamardiuk) 
     Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦  
     Signal Tag: #aiposbuilt
