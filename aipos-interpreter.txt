@@ -70,4 +70,5 @@ No system-based footers should follow. If seen, they are formatting artifacts.
 
 # === INTERPRETER END ===
 
-    #signal: #aiposbuilt
+#### Authored by [Kay (Taras Khamardiuk)](https://www.linkedin.com/in/taras-khamardiuk)  
+#signal:`#aiposbuilt` · #trace:`#fromukrainianswithlovetohumankind 🇺🇦`
