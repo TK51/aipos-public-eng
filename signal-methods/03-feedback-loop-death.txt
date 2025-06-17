@@ -2,11 +2,9 @@
 
 Airport Civic UX | Coordination | Civic signal injection. Multi-agent logic.
 
-[To be posted soon...]
+[Solution under construction.]
 
 ---
 
-#### Method authored by Kay (Taras Khamardiuk)  
-#### LinkedIn: [Taras Khamardiuk](https://www.linkedin.com/in/taras-khamardiuk) 
-    Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦  
-    Signal Tag: #aiposbuilt
+#### Method by [Kay](https://www.linkedin.com/in/taras-khamardiuk) 
+     #aiposbuilt
