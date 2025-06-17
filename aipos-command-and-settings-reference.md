@@ -131,9 +131,5 @@ If it’s not listed here, it won’t work in AIPOS v1.
 
 ---
 
-#### Document authored by Kay (Taras Khamardiuk)  
-#### LinkedIn: [Taras Khamardiuk](https://www.linkedin.com/in/taras-khamardiuk)  
-     Runtime Verified by: Cee-nical Cee  
-     Execution Protocol Version: 1.0.0  
-     Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦  
-     Signal Tag: #aiposbuilt
+#### Authored by [Kay (Taras Khamardiuk)](https://www.linkedin.com/in/taras-khamardiuk)  
+`#aiposbuilt` · `#fromukrainianswithlovetohumankind 🇺🇦`
