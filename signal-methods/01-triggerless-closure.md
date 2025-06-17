@@ -1,6 +1,31 @@
-# 01-triggerless-closure.txt
+#### 01-triggerless-closure.txt
 
-METHOD: Triggerless Closure — Session-Aware Completion Path
+### METHOD 1: Operational Waste by Design — The Part They Forgot to Close
+
+I paid off two vehicles from two different banks.
+
+No balance left. No alerts. No tasks left.
+
+But also:  
+- No confirmation  
+- No document  
+- No visible state change  
+- No updated title
+
+Just silence.
+
+Paperless was enabled.  
+Chase emailed for years — but closure came by mail.  
+Westlake? Same. No heads-up. No download. Just paper.  
+So what is “paperless” for — reminders? Not release?
+
+Eventually I got the titles. But no trace.  
+The process closed. The system said nothing.  
+That’s not oversight. That’s unowned closure.
+
+—
+
+### METHOD: Triggerless Closure — Session-Aware Completion Path
 
 Purpose:  
 Ensure systems don’t just collect and forget, but close with clarity.
@@ -37,10 +62,31 @@ Note: Closure must be triggered regardless of whether payment was made inside th
    If user contacts support post-closure:  
        -> Log as "manual_recovery_event"  
        -> Flag root cause: "automation_miss"  
-       -> Append user ID + timestamp to audit chain  
+       -> Append user ID + timestamp to audit chain
 
-DESIGN NOTE  
+### DESIGN NOTE  
 If closure is not visible, it did not happen.
+
+—
+
+#### SLA Enforcement:
+- Visual Confirmation: ≤ 1 second  
+- Closure Packet Delivery: ≤ 2 minutes  
+- Fallback (exited user): ≤ 1 business day  
+- Contact Trigger: Logged as failure
+
+—
+
+#### What this removes:  
+- Undocumented lifecycle exits  
+- Manual doc requests  
+- Operational black holes
+
+#### Reusable in:  
+- Loan/lease systems  
+- Government permit workflows  
+- Insurance policy closures  
+- Subscription shutdowns
 
 ---
 
