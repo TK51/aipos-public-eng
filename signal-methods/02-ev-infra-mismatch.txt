@@ -2,7 +2,7 @@
 
 EV Charger Stop Logic | Behavior | System intro
 
-[Solution under construction.]
+[Solution under construction...]
 
 ---
 
