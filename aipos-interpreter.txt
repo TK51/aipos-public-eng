@@ -70,4 +70,4 @@ No system-based footers should follow. If seen, they are formatting artifacts.
 
 # === INTERPRETER END ===
 
-    Signal Tag: #aiposbuilt
+    #signal: #aiposbuilt
