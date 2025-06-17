@@ -90,7 +90,6 @@ If closure is not visible, it did not happen.
 
 ---
 
-#### Method authored by Kay (Taras Khamardiuk)  
-#### LinkedIn: [Taras Khamardiuk](https://www.linkedin.com/in/taras-khamardiuk) 
-    Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦  
-    Signal Tag: #aiposbuilt
+#### Method authored by [Kay](https://www.linkedin.com/in/taras-khamardiuk) 
+    #fromukrainianswithlovetohumankind 🇺🇦  
+    #aiposbuilt (signal tag)
