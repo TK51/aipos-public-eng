@@ -90,6 +90,5 @@ If closure is not visible, it did not happen.
 
 ---
 
-#### Authored by [Kay](https://www.linkedin.com/in/taras-khamardiuk) 
-      #aiposbuilt (signal tag)
-      #fromukrainianswithlovetohumankind 🇺🇦  
+#### Authored by [Kay (Taras Khamardiuk)](https://www.linkedin.com/in/taras-khamardiuk)  
+`#aiposbuilt` · `#fromukrainianswithlovetohumankind 🇺🇦`
