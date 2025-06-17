@@ -2,9 +2,9 @@
 
 EV Charger Stop Logic | Behavior | System intro
 
-[To be posted soon...]
+[Solution under construction.]
 
 ---
 
-#### Method authored by [Kay](https://www.linkedin.com/in/taras-khamardiuk) 
+#### Method by [Kay](https://www.linkedin.com/in/taras-khamardiuk) 
      #aiposbuilt
