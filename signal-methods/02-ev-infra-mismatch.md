@@ -7,5 +7,4 @@ EV Charger Stop Logic | Behavior | System intro
 ---
 
 #### Method authored by [Kay](https://www.linkedin.com/in/taras-khamardiuk) 
-    Trace Signature: #fromukrainianswithlovetohumankind 🇺🇦  
-    Signal Tag: #aiposbuilt
+     #aiposbuilt
