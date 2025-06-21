@@ -1,6 +1,6 @@
-02-ev-charging-the-pause.txt
+#### 02-ev-charging-the-pause.txt
 
-METHOD 2: Charged in the Middle of Nowhere — Where the Pause Already Happens
+### METHOD 2: Charged in the Middle of Nowhere — Where the Pause Already Happens
 
 There’s a rhythm to gas stations.  
 You don’t think about them — because they work.  
@@ -15,7 +15,7 @@ That was design without observation.
 
 —
 
-METHOD: Charging the Pause — EV Continuity at Gas Stations
+### METHOD: Charging the Pause — EV Continuity at Gas Stations
 
 Purpose:  
 Place high-speed EV chargers at gas stations — only where behavior proves value.
@@ -92,7 +92,7 @@ That’s why this works here — and anywhere.
 
 —
 
-Deployment Rule
+#### Deployment Rule
 
 You don’t need to electrify the world.  
 Just start where people already wait.
