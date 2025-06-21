@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>02 ev charging the pause — AIPOS Viewer</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCTN7560BJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-FCTN7560BJ');
+  </script>
+
+  <style>
+    :root { color-scheme: light dark; }
+
+    body {
+      font-family: monospace;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 1rem;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background: #f4f4f4;
+      padding: 1em;
+      border-radius: 5px;
+      overflow-x: auto;
+      border: 1px solid #ccc;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #555;
+      border-top: 1px solid #ccc;
+      padding-top: 0.5rem;
+    }
+
+    .nav-button {
+      display: inline-block;
+      margin: 1rem 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .nav-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    .download-button {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .download-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+      }
+
+      pre {
+        background: #161b22;
+        border: 1px solid #30363d;
+      }
+
+      .footer {
+        color: #999;
+        border-top: 1px solid #333;
+      }
+
+      .nav-button {
+        background-color: #30363d;
+        color: #ffffff;
+      }
+
+      .nav-button:hover {
+        background-color: #505A62;
+      }
+
+      .download-button {
+        background-color: #30363d;
+        color: #E6EEF5;
+      }
+
+      .download-button:hover {
+        background-color: #505A62;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <h1>02 ev charging the pause</h1>
+  
+<a class="download-button"
+   href="../download/02-ev-charging-the-pause.txt"
+   download
+   onclick="gtag('event', 'download_click', {'file': '02-ev-charging-the-pause.txt'});">
+   ⬇ Download 02-ev-charging-the-pause.txt
+</a>
+
+  <article><h4>02-ev-charging-the-pause.txt</h4>
+<h3>METHOD 2: Charged in the Middle of Nowhere — Where the Pause Already Happens</h3>
+<p>There’s a rhythm to gas stations.<br />
+You don’t think about them — because they work.<br />
+Fuel, toilet, shade, snack. Stop. Reset. Continue.</p>
+<p>Driving EV and running Lyft routes, I noticed something else:<br />
+The socket might be there — but the infrastructure wasn’t.<br />
+No restroom. No light. No coffee. No place to wait.</p>
+<p>That wasn’t a technical failure.<br />
+That was design without observation.</p>
+<p>—</p>
+<h3>METHOD: Charging the Pause — EV Continuity at Gas Stations</h3>
+<p>Purpose:<br />
+Place high-speed EV chargers at gas stations — only where behavior proves value.</p>
+<p>—</p>
+<ol>
+<li>Urban Logic First</li>
+</ol>
+<p>Pilot Setup:</p>
+<p>• 4 gas stations in Antelope, CA<br />
+• 4 monitored parking spaces per station<br />
+• 60 days logged = 1,920 space-days</p>
+<p>Sensors captured:<br />
+- Space usage (empty or in-use)<br />
+- Time of day<br />
+- Peak-use triggers</p>
+<p>Install-Ready Rule:<br />
+If a parking space is empty more than 50% of the time, it’s ready for a charger.<br />
+(Idle = unoccupied time / total time)</p>
+<p>—</p>
+<ol start="2">
+<li>Two Deployment Models</li>
+</ol>
+<p>(A) Highway “Rest &amp; Recharge”</p>
+<ul>
+<li>2 × 150 kW DCFC  (fast charger)</li>
+<li>Install: $200K  </li>
+<li>40 sessions/day × 75 kWh  </li>
+<li>Charging: ~$1,200/day  </li>
+<li>Retail: ~$172/day  </li>
+<li>Total: ~$500,000/year</li>
+</ul>
+<p>(B) Urban “Micro-Energy Corner”</p>
+<ul>
+<li>1 × 150 kW DCFC   (fast charger)</li>
+<li>Install: ~$100K  </li>
+<li>15 sessions/day  </li>
+<li>Charging: ~$450/day  </li>
+<li>Retail: ~$77/day  </li>
+<li>Total: ~$192,000/year</li>
+</ul>
+<p>—</p>
+<ol start="3">
+<li>Net Financial View</li>
+</ol>
+<h2>Metric                              Highway (2 DCFCs)  Urban (1 DCFC)</h2>
+<p>Gross Revenue (annual)   ~$500,000               ~$192,000    <br />
+Install (5 yr amort.)          −$40,000                 −$20,000      <br />
+Maintenance                   −$800                      −$800           <br />
+Net Return (annual)         ~$459,200               ~$171,200      </p>
+<p>Sources:<br />
+• $0.40/kWh — DriveClean.CA.gov<br />
+• $8.59 avg spend — PDI Technologies<br />
+• ~$100K install — EVgo, Qmerit, PlugShare, NEVI data<br />
+• ~$800/yr maintenance — utility filings</p>
+<p>—</p>
+<ol start="4">
+<li>Use Case Fit — Not Fiction</li>
+</ol>
+<p>Antelope, CA isn’t a showroom. It’s functional:<br />
+~49,000 residents<br />
+6+ gas stations<br />
+3–4 arterial roads<br />
+Mixed traffic: delivery, rideshare, commuters, families</p>
+<p>That’s why this works here — and anywhere.</p>
+<p>—</p>
+<h4>Deployment Rule</h4>
+<p>You don’t need to electrify the world.<br />
+Just start where people already wait.</p>
+<p>Forget futurism. This is infrastructure realism.</p>
+<p>Empty asphalt = dead revenue.<br />
+Mapped pauses = continuity nodes.</p>
+<p>For people who don’t need luxury — just a way forward.</p>
+<hr />
+<h4>Authored by <a href="https://www.linkedin.com/in/taras-khamardiuk">Kay</a></h4>
+<pre><code>  #aiposbuilt (signal tag)
+  #fromukrainianswithlovetohumankind 🇺🇦
+</code></pre></article>
+  
+<a class="download-button"
+   href="../download/02-ev-charging-the-pause.txt"
+   download
+   onclick="gtag('event', 'download_click', {'file': '02-ev-charging-the-pause.txt'});">
+   ⬇ Download 02-ev-charging-the-pause.txt
+</a>
+
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <div class="footer">
+    Static viewer render • aipos-public-eng-main/signal-methods/02-ev-charging-the-pause.txt • #fromukrainianswithlovetohumankind
+  </div>
+
+</body>
+</html>

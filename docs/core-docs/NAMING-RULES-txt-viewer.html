@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAMING RULES — AIPOS Viewer</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCTN7560BJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-FCTN7560BJ');
+  </script>
+
+  <style>
+    :root { color-scheme: light dark; }
+
+    body {
+      font-family: monospace;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 1rem;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background: #f4f4f4;
+      padding: 1em;
+      border-radius: 5px;
+      overflow-x: auto;
+      border: 1px solid #ccc;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #555;
+      border-top: 1px solid #ccc;
+      padding-top: 0.5rem;
+    }
+
+    .nav-button {
+      display: inline-block;
+      margin: 1rem 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .nav-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    .download-button {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .download-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+      }
+
+      pre {
+        background: #161b22;
+        border: 1px solid #30363d;
+      }
+
+      .footer {
+        color: #999;
+        border-top: 1px solid #333;
+      }
+
+      .nav-button {
+        background-color: #30363d;
+        color: #ffffff;
+      }
+
+      .nav-button:hover {
+        background-color: #505A62;
+      }
+
+      .download-button {
+        background-color: #30363d;
+        color: #E6EEF5;
+      }
+
+      .download-button:hover {
+        background-color: #505A62;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <h1>NAMING RULES</h1>
+  
+  <article><h1>NAMING-RULES.md</h1>
+<p><strong>Version:</strong> 1.0-RULES   </p>
+<!-- Last Updated: 2025-06-15 by Kay -->
+
+<hr />
+<h2>Purpose</h2>
+<p>This file defines the <strong>non-negotiable naming rules</strong> for AIPOS files.<br />
+If your file names break these rules — they won’t fit the system. Simple as that.</p>
+<hr />
+<h2>Core Naming Rules</h2>
+<h3>1. Use Hyphens Only</h3>
+<p>All file names must use hyphens <code>-</code>.<br />
+Underscores <code>_</code> are banned system-wide.</p>
+<table>
+<thead>
+<tr>
+<th>✅ Valid</th>
+<th>❌ Invalid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>aipos-cfg-data-ops.txt</code></td>
+<td><code>aipos_cfg_data_ops.txt</code></td>
+</tr>
+<tr>
+<td><code>README.md</code></td>
+<td><code>read_me.md</code></td>
+</tr>
+<tr>
+<td><code>NAMING-RULES.md</code></td>
+<td><code>naming_rules.md</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>2. Config Files Start With <code>aipos-cfg-</code></h3>
+<p>Any file that controls runtime behavior <strong>must</strong> begin with:</p>
+<pre><code>aipos-cfg-
+</code></pre>
+<p><strong>Examples:</strong><br />
+- <code>aipos-cfg-base-cynical.txt</code><br />
+- <code>aipos-cfg-gis-loader.txt</code><br />
+- <code>aipos-cfg-output-neutral.txt</code></p>
+<hr />
+<h3>3. Docs don’t start with a prefix — but they MUST be named in ALL CAPS with hyphens.</h3>
+<p>High-level docs (rules, templates, indices) use <strong>UPPERCASE with hyphens</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>File Role</th>
+<th>Valid Filename</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Intro</td>
+<td><code>README.md</code></td>
+</tr>
+<tr>
+<td>Naming Rules</td>
+<td><code>NAMING-RULES.md</code></td>
+</tr>
+<tr>
+<td>Training Guide</td>
+<td><code>TRAINING-GUIDE.md</code></td>
+</tr>
+</tbody>
+</table>
+<p>No prefix. No camelCase. No exceptions.</p>
+<hr />
+<h3>4. Filename Must Appear Inside The File</h3>
+<p>Top of every file must declare itself — for grep, trace, and human clarity.</p>
+<pre><code class="language-markdown"># aipos-cfg-base-cynical.txt
+</code></pre>
+<p>If filename ≠ header → it fails compliance.</p>
+<hr />
+<h2>Accepted Extensions</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Extension</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Config</td>
+<td><code>.txt</code></td>
+<td>Runtime control logic</td>
+</tr>
+<tr>
+<td>Markdown</td>
+<td><code>.md</code></td>
+<td>Docs, rules, methods</td>
+</tr>
+<tr>
+<td>Archive</td>
+<td><code>.zip</code></td>
+<td>Multi-file sessions</td>
+</tr>
+<tr>
+<td>Data (opt)</td>
+<td><code>.json</code></td>
+<td>Structured data (future)</td>
+</tr>
+</tbody>
+</table>
+<p>No <code>.docx</code>, <code>.rtf</code>, <code>.pdf</code>, or Google Drive exports.</p>
+<hr />
+<h2>Naming Pattern Standard</h2>
+<pre><code>aipos-cfg-[domain]-[purpose].txt
+</code></pre>
+<p><strong>Examples:</strong><br />
+- <code>aipos-cfg-data-automation.txt</code><br />
+- <code>aipos-cfg-output-minimal.txt</code><br />
+- <code>aipos-cfg-ui-neutral.txt</code></p>
+<p><strong>Docs:</strong><br />
+- <code>README.md</code><br />
+- <code>NAMING-RULES.md</code></p>
+<hr />
+<h2>Violations That Break Compliance (Auto-Reject)</h2>
+<ul>
+<li>Snake_case names  </li>
+<li>Missing filename in header  </li>
+<li>Generic junk like <code>cfg-session.txt</code>  </li>
+<li>Duplicate prefixes like <code>aipos-cfg-cfg.txt</code>  </li>
+<li>Files not in <code>.txt</code> or <code>.md</code> format  </li>
+</ul>
+<hr />
+<h2>Philosophy</h2>
+<p>Structure ≠ polish.<br />
+Naming ≠ vanity.<br />
+This is <strong>execution control</strong> — no compromise allowed.</p>
+<hr />
+<h2>Summary</h2>
+<p>If it’s runtime logic → <code>aipos-cfg-...txt</code><br />
+If it’s a doc → <code>ALLCAPS.md</code><br />
+Use hyphens. Declare names inside files. Reject fluff.</p>
+<p>This is your <strong>operational backbone</strong>.</p>
+<p>Break this — break your system.</p>
+<hr />
+<h4>Authored by <a href="https://www.linkedin.com/in/taras-khamardiuk">Kay (Taras Khamardiuk)</a></h4>
+<p><code>#aiposbuilt</code> · <code>#fromukrainianswithlovetohumankind 🇺🇦</code></p></article>
+  
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <div class="footer">
+    Static viewer render • aipos-public-eng-main/NAMING-RULES.txt • #fromukrainianswithlovetohumankind
+  </div>
+
+</body>
+</html>
