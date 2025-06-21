@@ -15,9 +15,9 @@ That was design without observation.
 
 —
 
-METHOD: Charging the Pause — EV Continuity at Gas Stations
+### METHOD: Charging the Pause — EV Continuity at Gas Stations
 
-Purpose:  
+#### Purpose:  
 Place high-speed EV chargers at gas stations — only where behavior proves value.
 
 —
@@ -92,7 +92,7 @@ That’s why this works here — and anywhere.
 
 —
 
-Deployment Rule
+#### Deployment Rule
 
 You don’t need to electrify the world.  
 Just start where people already wait.
