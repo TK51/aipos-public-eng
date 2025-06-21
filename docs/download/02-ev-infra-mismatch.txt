@@ -1,8 +1,108 @@
 02-ev-infra-mismatch.txt
 
-EV Charger Stop Logic | Behavior | System intro
+METHOD 2: Charged in the Middle of Nowhere — Where the Pause Already Happens
 
-[Solution under construction...]
+There’s a rhythm to gas stations.  
+You don’t think about them — because they work.  
+Fuel, toilet, shade, snack. Stop. Reset. Continue.
+
+Driving EV and running Lyft routes, I noticed something else:  
+The socket might be there — but the infrastructure wasn’t.  
+No restroom. No light. No coffee. No place to wait.
+
+That wasn’t a technical failure.  
+That was design without observation.
+
+—
+
+METHOD: Charging the Pause — EV Continuity at Gas Stations
+
+Purpose:  
+Place high-speed EV chargers at gas stations — only where behavior proves value.
+
+—
+
+1. Urban Logic First
+
+Pilot Setup:
+
+• 4 gas stations in Antelope, CA  
+• 4 monitored parking spaces per station  
+• 60 days logged = 1,920 space-days
+
+Sensors captured:  
+- Space usage (empty or in-use)  
+- Time of day  
+- Peak-use triggers
+
+Install-Ready Rule:
+If a parking space is empty more than 50% of the time, it’s ready for a charger.
+(Idle = unoccupied time / total time)
+
+—
+
+2. Two Deployment Models
+
+(A) Highway “Rest & Recharge”
+
+- 2 × 150 kW DCFC  (fast charger)
+- Install: $200K  
+- 40 sessions/day × 75 kWh  
+- Charging: ~$1,200/day  
+- Retail: ~$172/day  
+- Total: ~$500,000/year
+
+(B) Urban “Micro-Energy Corner”
+
+- 1 × 150 kW DCFC   (fast charger)
+- Install: ~$100K  
+- 15 sessions/day  
+- Charging: ~$450/day  
+- Retail: ~$77/day  
+- Total: ~$192,000/year
+
+—
+
+3. Net Financial View
+
+Metric                              Highway (2 DCFCs)  Urban (1 DCFC) 
+-------------------------------------------------------------------
+Gross Revenue (annual)   ~$500,000               ~$192,000      
+Install (5 yr amort.)          −$40,000                 −$20,000        
+Maintenance                   −$800                      −$800             
+Net Return (annual)         ~$459,200               ~$171,200      
+
+Sources:  
+• $0.40/kWh — DriveClean.CA.gov  
+• $8.59 avg spend — PDI Technologies  
+• ~$100K install — EVgo, Qmerit, PlugShare, NEVI data  
+• ~$800/yr maintenance — utility filings
+
+—
+
+4. Use Case Fit — Not Fiction
+
+Antelope, CA isn’t a showroom. It’s functional:  
+~49,000 residents  
+6+ gas stations  
+3–4 arterial roads  
+Mixed traffic: delivery, rideshare, commuters, families
+
+That’s why this works here — and anywhere.
+
+—
+
+Deployment Rule
+
+You don’t need to electrify the world.  
+Just start where people already wait.
+
+Forget futurism. This is infrastructure realism.
+
+Empty asphalt = dead revenue.  
+Mapped pauses = continuity nodes.
+
+For people who don’t need luxury — just a way forward.
 
 ---
 
