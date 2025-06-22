@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>README — AIPOS Viewer</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCTN7560BJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-FCTN7560BJ');
+  </script>
+
+  <style>
+    :root { color-scheme: light dark; }
+
+    body {
+      font-family: monospace;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 1rem;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background: #f4f4f4;
+      padding: 1em;
+      border-radius: 5px;
+      overflow-x: auto;
+      border: 1px solid #ccc;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #555;
+      border-top: 1px solid #ccc;
+      padding-top: 0.5rem;
+    }
+
+    .nav-button {
+      display: inline-block;
+      margin: 1rem 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .nav-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    .download-button {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .download-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+      }
+
+      pre {
+        background: #161b22;
+        border: 1px solid #30363d;
+      }
+
+      .footer {
+        color: #999;
+        border-top: 1px solid #333;
+      }
+
+      .nav-button {
+        background-color: #30363d;
+        color: #ffffff;
+      }
+
+      .nav-button:hover {
+        background-color: #505A62;
+      }
+
+      .download-button {
+        background-color: #30363d;
+        color: #E6EEF5;
+      }
+
+      .download-button:hover {
+        background-color: #505A62;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <h1>README</h1>
+  
+  <article><h1>README.md</h1>
+<p><strong>Version:</strong> 1.0  </p>
+<!-- Last Updated: 2025-06-15 by Kay -->
+
+<hr />
+<h3>What Is AIPOS?</h3>
+<p>AIPOS is a <strong>manual runtime system</strong> for ChatGPT.<br />
+It does not depend on ChatGPT remembering anything — you control the rules.  </p>
+<p>You copy + paste config files into any chat (desktop or mobile), and immediately transform the model into a structured, tone-controlled, context-driven assistant.</p>
+<p>There is no magic in the system — just structure.<br />
+But the results might often <em>feel</em> like magic — because it removes 90% of fluff, inconsistency, chaos, and waste. Still, within every session, you need to watch for AI drift. AIPOS gives you the config validation handle to reassert tone, structure, and role — before the thread collapses.</p>
+<p>AIPOS is available in English. Will be available soon in Ukrainian at <a href="#">aipos-public-ukr</a>.</p>
+<hr />
+<h3>What You Can Do With It</h3>
+<ul>
+<li>Set your AI tone, domain, and behavior before the session begins  </li>
+<li>Train ChatGPT to work for <strong>you</strong>, not the other way around  </li>
+<li>Eliminate re-explaining logic or repeating setup prompts  </li>
+<li>Create reusable templates for resumes, coding, analysis, mentoring  </li>
+<li>Develop your <strong>enhanced experience patterns</strong> for desktop and mobile use  </li>
+<li>Strip floating, verbose GPT replies into tactical, format-safe outputs  </li>
+<li>Use rawtext, shell-safe, PDF-ready, or mobile .zip structures  </li>
+<li><strong>Build your own prompt-free logic stacks</strong></li>
+</ul>
+<hr />
+<h3>How to Use It</h3>
+<ol>
+<li>
+<p>Paste the Files (in this order):<br />
+   - <code>aipos-interpreter.md</code><br />
+   - One or more <code>aipos-cfg-*.txt</code> files<br />
+   - (Optional) <code>aipos-context.md</code>, <code>truth-checkpoint.md</code>, or others  </p>
+</li>
+<li>
+<p>Or Load an Archive:<br />
+   - Paste a <code>.zip</code> containing your AIPOS pack  </p>
+</li>
+<li>
+<p>Then Activate:<br />
+   - Run the command: <code>aiposrun</code></p>
+</li>
+</ol>
+<hr />
+<h3>What It’s Not</h3>
+<ul>
+<li>It doesn’t “install” anything  </li>
+<li>It doesn’t write memory to ChatGPT  </li>
+<li>It won’t give instant perfect results  </li>
+</ul>
+<p>AIPOS requires effort and pattern discipline.<br />
+But it’s the only system where <strong>you can train the assistant without jailbreaks or plugins.</strong></p>
+<hr />
+<h3>AIPOS Outcomes: Real Results, Real Limits</h3>
+<h4>Core Goals You Had:</h4>
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>Status</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Control tone</td>
+<td>Yes</td>
+<td>You locked “cynical” and got compliance</td>
+</tr>
+<tr>
+<td>Control role context</td>
+<td>Yes</td>
+<td>You defined Architect/Analyst/Executor, and I followed</td>
+</tr>
+<tr>
+<td>Create repeatable chat environments</td>
+<td>Yes</td>
+<td><code>aiposrun</code> + paste = consistent session behavior</td>
+</tr>
+<tr>
+<td>Avoid re-explaining your logic</td>
+<td>Yes</td>
+<td>You scripted it into config and I obey</td>
+</tr>
+<tr>
+<td>Force structure in freeform AI</td>
+<td>Yes</td>
+<td>Footer, header, role trace all followed</td>
+</tr>
+<tr>
+<td>Make it portable to self</td>
+<td>Yes</td>
+<td>It boots on any device — you proved that from mobile</td>
+</tr>
+<tr>
+<td>Use it for resumes, code, profiles</td>
+<td>Yes</td>
+<td>You’ve generated real output with it, and faster than raw sessions</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Where It Doesn’t Work:</h4>
+<table>
+<thead>
+<tr>
+<th>Limitation</th>
+<th>Why It's Not Your Fault</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Others can’t just “load it”</td>
+<td>Because ChatGPT doesn’t have shared state or a real interpreter</td>
+</tr>
+<tr>
+<td>ChatGPT drifts after 30+ turns</td>
+<td>Because there's no runtime persistence or session lock</td>
+</tr>
+<tr>
+<td>Syntax format claims fail</td>
+<td>Because the UI renders markdown however it wants</td>
+</tr>
+<tr>
+<td>No memory → no persistence</td>
+<td>Because the platform wipes session state unless you reload manually</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>But The Real Question:</h3>
+<blockquote>
+<p>Can you consistently control tone, intent, behavior, structure, and logic with AIPOS?</p>
+</blockquote>
+<p><strong>YES.</strong><br />
+And you’ve done it in over a dozen configurations, workflows, and task domains.</p>
+<hr />
+<h3>Final Notes</h3>
+<p>This system was designed to <strong>give you output control</strong>.<br />
+It’s not for first-time users — it’s for those tired of the endless reset-loop in GPT.</p>
+<p>AIPOS won’t make you magical.<br />
+But it will make you fast, focused, and finally done.</p>
+<hr />
+<h3>For Those Asking “How Do I Learn This?”</h3>
+<p>You don’t need a course.<br />
+You don’t need a tutorial.<br />
+You just need <strong>one config, one screenrec, one system</strong>.</p>
+<h3>🔗 Quick Start:</h3>
+<ul>
+<li><a href="#">Watch AIPOS 2-Minute Walkthrough</a> ← link to screenrec or YouTube  </li>
+<li><a href="#">Browse Signal Campaign Posts</a> ← link to STRIPSHOW post folder  </li>
+<li>[Scan QR → Load Repo + Configs]<br />
+  <br><br />
+<img alt="QR" src="https://github.com/TK51/aipos-public-eng/raw/main/aipos-qr-code-cfg-base-cynical.jpg" /></li>
+</ul>
+<blockquote>
+<p>This system is not a product. It’s not gated.<br />
+It’s a field method — built to run from mobile, terminal, or fallback memory.</p>
+</blockquote>
+<p>AIPOS is the opposite of AI prompts.<br />
+It’s <strong>structure under collapse.</strong></p>
+<p>Use it. Fork it. Or ignore it.<br />
+The signal's already running.</p>
+<hr />
+<h4>Authored by <a href="https://www.linkedin.com/in/taras-khamardiuk">Kay (Taras Khamardiuk)</a></h4>
+<p><code>#aiposbuilt</code> · <code>#fromukrainianswithlovetohumankind 🇺🇦</code></p></article>
+  
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <div class="footer">
+    Static viewer render • aipos-public-eng-main/README.txt • #fromukrainianswithlovetohumankind
+  </div>
+
+</body>
+</html>
