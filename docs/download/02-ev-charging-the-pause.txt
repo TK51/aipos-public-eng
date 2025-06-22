@@ -27,8 +27,8 @@ Place high-speed EV chargers at gas stations — only where behavior proves valu
 Pilot Setup:
 
 • 4 gas stations in Antelope, CA  
-• 4 monitored parking spaces per station  
-• 60 days logged = 1,920 space-days
+• 4 gas stations, 4 monitored parking spaces each 
+• 60 days of space usage logs = 1,440 data-points per space (60 days x 24 hours)
 
 Sensors captured:  
 - Space usage (empty or in-use)  
@@ -60,6 +60,16 @@ If a parking space is empty more than 50% of the time, it’s ready for a charge
 - Charging: ~$450/day  
 - Retail: ~$77/day  
 - Total: ~$192,000/year
+
+Calculation Notes (Added for Transparency)
+
+• $1,200/day charging revenue = 40 sessions × 75 kWh × $0.40
+• $172/day retail = 20 spenders × $8.59 avg spend
+• $450/day charging revenue = 15 sessions × 75 kWh × $0.40
+• $77/day retail = ~9 spenders × $8.59 avg spend
+• $500K and $192K gross annual = daily totals × 365
+• Install amortization: $100K or $200K ÷ 5 years
+• Maintenance: ~$800/year (from public utility benchmarks)
 
 —
 
