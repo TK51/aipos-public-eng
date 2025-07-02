@@ -27,3 +27,8 @@ word.Quit()
 #python #docxtopdf #pdfconversion #automation #documenttools #businessdataanalyst #traceability #documentationtools #batchprocessing #reportingautomation #documentconversion #workflowtools
 
 #aiposbuilt #fromukrainianswithlovetohumankind 🇺🇦
+
+youtube:
+https://youtube.com/shorts/C9vmmUVgi4s
+
+github:
