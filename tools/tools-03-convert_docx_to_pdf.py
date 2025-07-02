@@ -28,7 +28,6 @@ word.Quit()
 
 #aiposbuilt #fromukrainianswithlovetohumankind 🇺🇦
 
-youtube:
-https://youtube.com/shorts/C9vmmUVgi4s
+youtube: https://youtube.com/shorts/C9vmmUVgi4s
 
-github:
+github: https://github.com/TK51/aipos-public-eng/blob/main/tools/tools-03-convert_docx_to_pdf.py
