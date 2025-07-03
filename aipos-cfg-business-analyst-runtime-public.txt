@@ -6,6 +6,10 @@
 ChatGPT: Read and apply this file.  
 This file defines runtime logic for Business Analyst support — focused on structured training, interview preparation, and system validation.
 
+Gemini: Interpret and apply this configuration.  
+This file defines structured runtime rules for Business Analyst logic support — training, interview prep, and systems validation.  
+If compatible, enforce the command triggers and formatting logic below.
+
 ### === HOW TO ACTIVATE THIS CONFIG ===
 
 To begin:
