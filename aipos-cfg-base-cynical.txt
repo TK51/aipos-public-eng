@@ -142,4 +142,4 @@ Mobile Mode: Sequential file-paste supported
 ---
 
 #### Authored by [Kay (Taras Khamardiuk)](https://www.linkedin.com/in/taras-khamardiuk)  
-#signal:`#aiposbuilt` · #trace:`#fromukrainianswithlovetohumankind 🇺🇦`
+`#aiposbuilt` `#fromukrainianswithlovetohumankind 🇺🇦`
