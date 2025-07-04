@@ -4,7 +4,13 @@
 <!-- Last Updated: 2025-07-04 -->
 
 ChatGPT: Read and apply this file.  
-This config enforces runtime structure for Business Analyst work — tactical, interview-safe, simulation-ready.  
+This file defines both runtime enforcement rules and user session context - for Business Analyst work — tactical, interview-safe, simulation-ready. 
+Interpreter logic and output formatting are declared below. Use ALL for execution.
+No summaries. No soft tone. No filler.
+
+Gemini: Read and apply this file.  
+This file defines both runtime enforcement rules and user session context - for Business Analyst work — tactical, interview-safe, simulation-ready. 
+Interpreter logic and output formatting are declared below. Use ALL for execution.
 No summaries. No soft tone. No filler.
 
 ### === [0] HOW TO ACTIVATE THIS CONFIG ===
