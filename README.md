@@ -66,12 +66,12 @@ Start Configs
 Tools  
 - `folder_tree_scan.py`  
 - `convert_all_md-txt_to_docx.py`  
-- `convert_docx_to_pdf.py`
+- `convert_docx_to_pdf.py` _and more to come_
 
 Signal Posts  
 - 01: Triggerless Closure  
 - 02: Charging the Pause  
-- 03: Feedback Loop Death
+- 03: Feedback Loop Death _and more to come_
 
 ---
 
