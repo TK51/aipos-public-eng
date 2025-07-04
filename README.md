@@ -1,123 +1,105 @@
 # README.md  
-**Version:** 1.0  
-<!-- Last Updated: 2025-06-15 by Kay -->
+**Version:** 2.0  
+<!-- Last Updated: 2025-07-14 by Kay -->
 
 ---
 
 ### What Is AIPOS?
 
-AIPOS is a **manual runtime system** for ChatGPT.  
-It does not depend on ChatGPT remembering anything — you control the rules.  
+AIPOS is a configuration-based setup for interacting with AI tools like ChatGPT and Gemini.  
+You download a plain `.txt` config, paste it into chat, type `aiposrun`, and the structure takes effect.
 
-You copy + paste config files into any chat (desktop or mobile), and immediately transform the model into a structured, tone-controlled, context-driven assistant.
+No memory. No prompts. No guessing.  
+The config sets tone, role, and output format — in your terms.
 
-There is no magic in the system — just structure.  
-But the results might often *feel* like magic — because it removes 90% of fluff, inconsistency, chaos, and waste. Still, within every session, you need to watch for AI drift. AIPOS gives you the config validation handle to reassert tone, structure, and role — before the thread collapses.
+It doesn’t automate intelligence. It removes friction.  
+This site — every method, tool, and format — was built using AIPOS configs.
 
-AIPOS is available in English. Will be available soon in Ukrainian at [aipos-public-ukr](#).
+download → paste into chat → type `aiposrun` (or `Aiposrun` from mobile) → done.
 
----
-
-### What You Can Do With It
-
-- Set your AI tone, domain, and behavior before the session begins  
-- Train ChatGPT to work for **you**, not the other way around  
-- Eliminate re-explaining logic or repeating setup prompts  
-- Create reusable templates for resumes, coding, analysis, mentoring  
-- Develop your **enhanced experience patterns** for desktop and mobile use  
-- Strip floating, verbose GPT replies into tactical, format-safe outputs  
-- Use rawtext, shell-safe, PDF-ready, or mobile .zip structures  
-- **Build your own prompt-free logic stacks**
+Ukrainian version coming soon at [aipos-public-ukr](#).
 
 ---
 
-### How to Use It
+## How to Use It
 
-1. Paste the Files (in this order):  
-   - `aipos-interpreter.md`  
-   - One or more `aipos-cfg-*.txt` files  
-   - (Optional) `aipos-context.md`, `truth-checkpoint.md`, or others  
+Minimal  
+- Download any config from `/configs/`  
+- Paste into ChatGPT  
+- Type: `aiposrun` (or `Aiposrun` from mobile)
 
-2. Or Load an Archive:  
-   - Paste a `.zip` containing your AIPOS pack  
+Semi-Minimal  
+- Edit the config to your tone/role  
+- Paste into chat  
+- Type: `aiposrun`
 
-3. Then Activate:  
-   - Run the command: `aiposrun`
+Full Pack  
+- Download the `.zip`  
+- Paste `aipos-interpreter.txt` + config  
+- Type: `aiposrun`
 
----
-
-### What It’s Not
-
-- It doesn’t “install” anything  
-- It doesn’t write memory to ChatGPT  
-- It won’t give instant perfect results  
-
-AIPOS requires effort and pattern discipline.  
-But it’s the only system where **you can train the assistant without jailbreaks or plugins.**
+Reminder:  
+The config is your tool.  
+Open it. Read the structure. Amend as needed.
 
 ---
 
-### AIPOS Outcomes: Real Results, Real Limits
+## What’s in This Repo
 
-#### Core Goals You Had:
-| Goal                                 | Status | Evidence                                                           |
-|--------------------------------------|--------|--------------------------------------------------------------------|
-| Control tone                         | Yes    | You locked “cynical” and got compliance                            |
-| Control role context                 | Yes    | You defined Architect/Analyst/Executor, and I followed             |
-| Create repeatable chat environments  | Yes    | `aiposrun` + paste = consistent session behavior                   |
-| Avoid re-explaining your logic       | Yes    | You scripted it into config and I obey                             |
-| Force structure in freeform AI       | Yes    | Footer, header, role trace all followed                            |
-| Make it portable to self             | Yes    | It boots on any device — you proved that from mobile               |
-| Use it for resumes, code, profiles   | Yes    | You’ve generated real output with it, and faster than raw sessions |
+/configs/ — All runtime `.txt` configs  
+/core-docs/ — Interpreter, QR, mobile guides  
+/tools/ — Raw Python scripts for Excel/File automation  
+/signal-methods/ — Source files for Signal/Method posts  
+/download/ — Raw `.txt` for mobile, sharing, QR links  
+/visuals/ — JPGs for QR, post covers, method cards  
+/docs/ — Live HTML viewers (this is the site)
 
 ---
 
-#### Where It Doesn’t Work:
-| Limitation                     | Why It's Not Your Fault                                             |
-|--------------------------------|---------------------------------------------------------------------|
-| Others can’t just “load it”    | Because ChatGPT doesn’t have shared state or a real interpreter     |
-| ChatGPT drifts after 30+ turns | Because there's no runtime persistence or session lock              |
-| Syntax format claims fail      | Because the UI renders markdown however it wants                    |
-| No memory → no persistence     | Because the platform wipes session state unless you reload manually |
+## Quick Links
+
+Start Configs  
+- `aipos-cfg-minimal.txt`  
+- `aipos-cfg-base-cynical.txt`  
+- `aipos-cfg-business-analyst-runtime-public.txt`
+
+Tools  
+- `folder_tree_scan.py`  
+- `convert_all_md-txt_to_docx.py`  
+- `convert_docx_to_pdf.py`
+
+Signal Posts  
+- 01: Triggerless Closure  
+- 02: Charging the Pause  
+- 03: Feedback Loop Death
 
 ---
 
-### But The Real Question:
-> Can you consistently control tone, intent, behavior, structure, and logic with AIPOS?
+## License
 
-**YES.**  
-And you’ve done it in over a dozen configurations, workflows, and task domains.
+MIT License. No support. No warranty. No nonsense.
 
 ---
 
-### Final Notes
-
-This system was designed to **give you output control**.  
-It’s not for first-time users — it’s for those tired of the endless reset-loop in GPT.
-
-AIPOS won’t make you magical.  
-But it will make you fast, focused, and finally done.
-
----
-
-### For Those Asking “How Do I Learn This?”
+## For Those Asking “How Do I Learn This?”
 
 You don’t need a course.  
 You don’t need a tutorial.  
-You just need **one config, one screenrec, one system**.
+You just need one config, one screenrec, one system.
 
-### 🔗 Quick Start:
+Quick Start
+
 - [Watch AIPOS 2-Minute Walkthrough](#) ← link to screenrec or YouTube  
 - [Browse Signal Campaign Posts](#) ← link to STRIPSHOW post folder  
 - [Scan QR → Load Repo + Configs]  
   <br>
- ![QR](https://github.com/TK51/aipos-public-eng/raw/main/aipos-qr-code-cfg-base-cynical.jpg)
+  ![QR](https://github.com/TK51/aipos-public-eng/raw/main/aipos-qr-code-cfg-base-cynical.jpg)
 
 > This system is not a product. It’s not gated.  
 > It’s a field method — built to run from mobile, terminal, or fallback memory.
 
 AIPOS is the opposite of AI prompts.  
-It’s **structure under collapse.**
+It’s structure under collapse.
 
 Use it. Fork it. Or ignore it.  
 The signal's already running.
