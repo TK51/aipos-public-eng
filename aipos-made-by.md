@@ -11,8 +11,8 @@
 ### Who Built This
 
 **Name:** [Kay](https://www.linkedin.com/in/taras-khamardiuk) (aka Taras Khamardiuk)  
-**Roles:** Platform Thinker • Systems Designer • Automation Architect — BI-forged visionaire  
-**Location:** Greater Sacramento, CA — originally from Ukraine  
+**Roles:** Platform Thinker • Business Data Analyst — BI-forged visionaire  
+**Location:** Greater Sacramento, CA --> Ireland — originally from Ukraine  
 **Tone:** Cynical. Practical. Quietly precise.  
 
 ---
