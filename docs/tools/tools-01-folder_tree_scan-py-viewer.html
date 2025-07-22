@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tools 01 folder_tree_scan.py — AIPOS Viewer</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCTN7560BJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-FCTN7560BJ');
+  </script>
+
+  <style>
+    :root { color-scheme: light dark; }
+
+    body {
+      font-family: monospace;
+      background-color: #ffffff;
+      color: #000000;
+      padding: 1rem;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background: #f4f4f4;
+      padding: 1em;
+      border-radius: 5px;
+      overflow-x: auto;
+      border: 1px solid #ccc;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #555;
+      border-top: 1px solid #ccc;
+      padding-top: 0.5rem;
+    }
+
+    .nav-button {
+      display: inline-block;
+      margin: 1rem 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .nav-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    .download-button {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #E0E0E0;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      font-family: 'Roboto Mono', monospace;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .download-button:hover {
+      background-color: #B0B0B0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+      }
+
+      pre {
+        background: #161b22;
+        border: 1px solid #30363d;
+      }
+
+      .footer {
+        color: #999;
+        border-top: 1px solid #333;
+      }
+
+      .nav-button {
+        background-color: #30363d;
+        color: #ffffff;
+      }
+
+      .nav-button:hover {
+        background-color: #505A62;
+      }
+
+      .download-button {
+        background-color: #30363d;
+        color: #E6EEF5;
+      }
+
+      .download-button:hover {
+        background-color: #505A62;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <h1>tools 01 folder_tree_scan.py</h1>
+  
+<a class="download-button"
+   href="../download/tools-01-folder_tree_scan.py"
+   download
+   onclick="gtag('event', 'download_click', {'file': 'tools-01-folder_tree_scan.py'});">
+   ⬇ Download tools-01-folder_tree_scan.py
+</a>
+
+  <article><pre># folder_tree_scan.py
+
+import os
+
+def print_folder_tree(start_path='.', indent=''):
+    try:
+        entries = sorted(os.listdir(start_path))
+    except Exception as e:
+        print(f"Error accessing {start_path}: {e}")
+        return
+
+    for index, entry in enumerate(entries):
+        full_path = os.path.join(start_path, entry)
+        connector = '└── ' if index == len(entries) - 1 else '├── '
+        print(indent + connector + entry)
+
+        if os.path.isdir(full_path):
+            next_indent = indent + ('    ' if index == len(entries) - 1 else '│   ')
+            print_folder_tree(full_path, next_indent)
+
+if __name__ == "__main__":
+    root = os.getcwd()  # Automatically uses the folder where the script is dropped
+    print(f"📁 Folder Tree for: {root}")
+    print_folder_tree(root)
+
+
+#python #osmodule #folderstructure #scripting #workflowdebugging #dataanalyst #reportingautomation #traceability
+
+#aiposbuilt #fromukrainianswithlovetohumankind 🇺🇦
+</pre></article>
+  
+<a class="download-button"
+   href="../download/tools-01-folder_tree_scan.py"
+   download
+   onclick="gtag('event', 'download_click', {'file': 'tools-01-folder_tree_scan.py'});">
+   ⬇ Download tools-01-folder_tree_scan.py
+</a>
+
+
+  <div style="margin: 1rem 0;">
+    <a class="nav-button" href="https://tk51.github.io/aipos-public-eng/" onclick="gtag('event', 'nav_click', {'type': 'home'});">⌂ Home</a>
+    <a class="nav-button" href="javascript:history.back()" onclick="gtag('event', 'nav_click', {'type': 'back'});">← Back</a>
+  </div>
+
+  <div class="footer">
+    Static viewer render • aipos-public-eng-main/tools/tools-01-folder_tree_scan.py • #fromukrainianswithlovetohumankind
+  </div>
+
+</body>
+</html>
